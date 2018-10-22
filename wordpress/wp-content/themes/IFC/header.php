@@ -9,11 +9,7 @@
     <meta name="description" content="The official homepage of the Georgia Institute of Technology Interfraternity Council">
     <meta name="Georgia Tech Interfraternity Council" content="Fraternity Websites, Sorority Websites, ChapterSpot.com, IFC, Interfraternity Council, GT IFC, Georgia Tech IFC, Georgia Tech Interfraternity Council, Georgia Tech Fraternities, georgia tech, georgia tech interfraternity council, gt ifc, gt fraternity council">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min v2.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <?php wp_head(); ?>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
