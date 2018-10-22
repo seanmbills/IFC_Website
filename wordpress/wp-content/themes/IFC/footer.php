@@ -47,9 +47,3 @@
         <!-- import all necessary base class javascript files -->
     <?php wp_footer(); ?>
 
-
-
-
-</body>
-
-</html>
