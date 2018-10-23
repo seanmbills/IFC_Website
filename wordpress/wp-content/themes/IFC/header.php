@@ -12,9 +12,9 @@
     <?php wp_head(); ?>
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
-	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png" />
 
 </head>
 
@@ -35,7 +35,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
+                    <?php 
+                        $nav = wp_get_nav_menu_items( 'primary-menu' );
+                        foreach( $nav as $nav_item ) {
+                            echo '<li class="nav-item"><a href="' . $nav_item->url . '" role="presentation" class="nav-link">' . $nav_item->title . '</a></li>';
+                        }
+                    ?>
+                    <!-- <li class="dropdown">
                         <a href="index.html">HOME</a>
                     </li>
                     <li class="dropdown">
@@ -90,7 +96,7 @@
                         <a href="https://twitter.com/GT_IFC" style="background-color:#2aa3ef!important; color:white!important;">
                             <i style="font-size:1em;" class="fa fa-twitter"></i>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
 
             </div>
