@@ -1,4 +1,4 @@
-<?php wp_get_header(); ?>
+<?php get_header(); ?>
 
 <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
@@ -105,7 +105,7 @@
         </div>
         <!-- /.row -->
 
-<?php wp_get_footer(); ?>
+<?php get_footer(); ?>
 
     <script>
     $('.carousel').carousel({
