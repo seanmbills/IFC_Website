@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <div class="container" z-index:2000 style="margin-top:50px;">
-        
+
         <div class="row">
             <div class="col-lg-12" style="text-align:center;">
                 <h1>Committee Chairmen</h1>
@@ -14,7 +14,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">Finance</h2>
-                    <img src="./img/Chairmen Pictures/FinanceChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/FinanceChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Max Liguori</h3>
@@ -27,7 +27,7 @@
 
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">Greek Excellence</h2>
-                    <img src="./img/Chairmen Pictures/GreekExcellenceChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/GreekExcellenceChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Corey Whitlock</h3>
@@ -40,7 +40,7 @@
 
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">GNA</h2>
-                    <img src="./img/Chairmen Pictures/GNAChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/GNAChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>James Cahill</h3>
@@ -58,7 +58,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">Philanthropy</h2>
-                    <img src="./img/Chairmen Pictures/PhilanthropyChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/PhilanthropyChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Christopher Lewis</h3>
@@ -71,7 +71,7 @@
 
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">Programming</h2>
-                    <img src="./img/Chairmen Pictures/ProgrammingChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/ProgrammingChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Anya Kohnke</h3>
@@ -84,7 +84,7 @@
 
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">Public Relations Chair</h2>
-                    <img src="./img/Chairmen Pictures/PRChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/PRChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Thomas Alexander</h3>
@@ -102,7 +102,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">Scholarship</h2>
-                    <img src="./img/Chairmen Pictures/ScholarshipChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/ScholarshipChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>David King</h3>
@@ -117,7 +117,7 @@
 
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">Social</h2>
-                    <img src="./img/Chairmen Pictures/SocialChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/SocialChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Erik Happ</h3>
@@ -130,7 +130,7 @@
 
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">Technology</h2>
-                    <img src="./img/Chairmen Pictures/TechChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/TechChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Nick Joaquin</h3>
@@ -140,19 +140,19 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <div class="col-md-4 col-sm-4">
-                    
+
                 </div>
 
                 <div class="col-md-4 col-sm-4  exec-photo-container">
                     <h2 style="text-align:center;">Greek Week</h2>
-                    <img src="./img/Chairmen Pictures/GreekWeekChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/GreekWeekChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Joseph Stamm</h3>

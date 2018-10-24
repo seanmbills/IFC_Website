@@ -14,7 +14,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <div class="col-lg-4 col-md-4 exec-photo-container">
                     <h2 style="text-align:center;">President</h2>
-                    <img src="./img/Exec Photos/President.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/President.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Jack Corelli</h3>
@@ -26,7 +26,7 @@
 
                 <div class="col-lg-4 col-md-4 exec-photo-container">
                     <h2 style="text-align:center;">Executive VP</h2>
-                    <img src="./img/Exec Photos/ExecutiveVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/ExecutiveVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Sam Medinger</h3>
@@ -38,7 +38,7 @@
 
                 <div class="col-lg-4 col-md-4 exec-photo-container">
                     <h2 style="text-align:center;">Administrative VP</h2>
-                    <img src="./img/Exec Photos/AdministrativeVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/AdministrativeVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Nick Ahern</h3>
@@ -55,7 +55,7 @@
             <div class="col-lg-12 col-md-12">
                 <div class="col-lg-4 col-md-4 exec-photo-container">
                     <h2 style="text-align:center;">Programming VP</h2>
-                    <img src="./img/Exec Photos/ProgrammingVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/ProgrammingVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Wilson Pu</h3>
@@ -67,7 +67,7 @@
 
                 <div class="col-lg-4 col-md-4 exec-photo-container">
                     <h2 style="text-align:center;">Recruitment VP</h2>
-                    <img src="./img/Exec Photos/RecruitmentVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/RecruitmentVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Graham Ely</h3>
@@ -79,7 +79,7 @@
 
                 <div class="col-lg-4 col-md-4 exec-photo-container">
                     <h2 style="text-align:center;">Finance VP</h2>
-                    <img src="./img/Exec Photos/FinanceVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/FinanceVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Kyle Green</h3>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 exec-photo-container">
                     <h2 style="text-align:center;">Communications VP</h2>
-                    <img src="./img/Exec Photos/CommunicationsVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/CommunicationsVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Erik Van Winkle</h3>
@@ -113,7 +113,7 @@
 
                 <div class="col-lg-4 col-md-4 exec-photo-container">
                     <h2 style="text-align:center;">Rush Chairman</h2>
-                    <img src="./img/Exec Photos/RushChairman.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/RushChairman.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3>Chase Anderton</h3>
