@@ -95,6 +95,25 @@
             <div class="col-md-7 panel panel-default" style="height:1010px;">
                 <h2 class="page-header" style="color:#FF2400">Latest News</h2>
                 <div id="blog" style="height:884px; margin-bottom:20px; overflow-y:scroll!important;">
+                    <?php if(have_posts()):
+                            while(have_posts()):
+                                the_post();
+                    ?>
+                    <p>
+                        <strong>
+                            <?php 
+                                the_title();
+                            ?>
+                        </strong>
+                        <br>
+                        <?php the_content(); ?>
+                        <br>
+                        <?php the_date(); ?>
+                        <br>
+                        <hr>
+                        <br>
+                    </p>
+                <?php endwhile; endif; ?>
                 </div>
             </div>
             <div class="col-md-5" style='height:1010px;'>
@@ -114,97 +133,6 @@
         wrap:true // sets it to go around and around instead of stopping after one cycle
     });
     </script>
-
-    <!-- script to control getting all of the relevant information from the WordPress site
-         on which the "blog" is stored 
-         NOTE: look into moving this back in to its own JS file...in fact look into moving
-         all of this to a separate file -->
-    <script>
-    // $(window).on("load", async function() {
- //        // lists to keep track of various information from blog posts
-    //  var titles = [];
-    //  var contents = [];
-    //  var dates = [];
-
- //        // this is the most important part of the function as it gets the actual content from the WordPress site
- //        // the "await" is absolutely necessary or else you'll end up jumping over this code before the HTTP
- //        // request being made here finishes and you'll end up with an empty list of posts
- //        // NOTE: await tells the JavaScript in runtime to wait for this entire method to finish
-    //  await jQuery.get( "http://public-api.wordpress.com/rest/v1/sites/seanmbills213.wordpress.com/posts/?http_envelope=true&amp;number=10", function( response ) { 
-    //      // response contains site information
-    //      var body = response['body'];
-    //      var found = parseInt(body['found']);
-    //      posts = body['posts'];
-
- //            // iterate over all posts returned and add their title, contents, and dates created to the
- //            // respective lists above
-    //      var i;
-    //      for (i = 0; i < found; i++) {
-    //          post = posts[i];
-    //          //console.log(post);
-    //          titles.push(post['title']);
-    //          contents.push(post['content']);
-    //          var date = new Date(post['date']);
-    //          var newDate = date.toString('dd-MM-yy');
-    //          dates.push(newDate);
-    //      }
-    //  });
- //        // set up the content for the blog div itself here
- //        // NOTE: need to come back and make each post into its own div with a popup functionality possible?
-    //  var blogContent = "";
-    //  for (var i = 0; i < titles.length; i++) {
-    //      blogContent += "<p><strong>" + titles[i] + "</strong><br>";
-    //      blogContent += contents[i];
-    //      blogContent += "<br>Posted On: " + dates[i] + "<br><hr><br>";
-    //  }
- //        // update the contents of the blog div on the home page
-    //  $("#blog").html(blogContent);
-    // });
-        console.log("made it here...");
-        $(window).on("load", getWordPress());
-
-        async function getWordPress() {
-            console.log("made it here (2)...");
-            var titles=[];
-            var contents = [];
-            var dates = [];
-
-            await $.ajax({
-                type:'GET',
-                dataType:"jsonp",
-                url:"http://public-api.wordpress.com/rest/v1.1/sites/ifcgatech.wordpress.com/posts/?http_envelope=true&amp;number=10",
-
-                success: function(result) {
-                    console.log(result);
-                    var body = result['body'];
-                    var found = parseInt(body['found']);
-                    posts = body['posts'];
-                    console.log(posts);
-                    var i;
-                     for (i = 0; i < found; i++) {
-                        post = posts[i];
-                        //console.log(post);
-                        titles.push(post['title']);
-                        contents.push(post['content']);
-                        var date = new Date(post['date']);
-                        var newDate = date.toString('dd-MM-yy');
-                        dates.push(newDate);
-                    }
-
-                }
-            });
-            var blogContent = "";
-            for (var i = 0; i < titles.length; i++) {
-                blogContent += "<p><strong>" + titles[i] + "</strong><br>";
-                blogContent += contents[i];
-                blogContent += "<br>Posted On: " + dates[i] + "<br><hr><br>";
-            }
-        // update the contents of the blog div on the home page
-            $("#blog").html(blogContent);
-        }
-    
-    </script>
-
 
     <!-- script to control changing the colors of the navigation bar and whatnot at the 
          top of the screen when the user scrolls past a certain point -->
@@ -239,10 +167,6 @@
                 completedInitialCalculation = true;
             }
         }
-
-        // $(window).on("scroll", function() {
-        //     console.log($(window).scroll());
-        // });
     </script>
 
 <script>
@@ -338,12 +262,7 @@ $(document).ready(function() {
             $(".meet-our-exec").addClass("col-md-12");
             $(".meet-our-exec").addClass("col-sm-12");
         }
-        // var elements = document.getElementsByClassName(".panel-body");
-        // for (var i = 0; i < elements.length; i++) {
-        //     elements[i].css("height=0px!important;";
-        //     elements[i].css("height=auto!important;";
-        // }
-        // equalHeight($(".panel-body"));
+        
         getHeights($(".panel-body"), winWidth);
     }
 
