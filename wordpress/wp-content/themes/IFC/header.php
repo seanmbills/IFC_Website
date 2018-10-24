@@ -30,12 +30,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html" style="background-image:url('./img/IFC Logo reverse.png');width:125px;"></a>
+                <a class="navbar-brand" href="index.html" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/IFC Logo reverse.png');width:125px;"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <?php 
+                    <?php
                         $nav = wp_get_nav_menu_items( 'primary-menu' );
                         foreach( $nav as $nav_item ) {
                             echo '<li class="nav-item"><a href="' . $nav_item->url . '" role="presentation" class="nav-link">' . $nav_item->title . '</a></li>';
