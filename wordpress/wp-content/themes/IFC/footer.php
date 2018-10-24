@@ -4,7 +4,7 @@
             </div>
         </div>
 
-        
+
         <!-- Call to Action Section -->
         <div class="well">
             <div class="row">
@@ -33,12 +33,12 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Footer -->
         <footer >
             <div class="row" style="background:url(); background-repeat:no-repeat; background-position:center; padding:0px 0 70px 0; margin:0 0 0 0;">
                 <div class="col-md-12">
-                    <p align="center">Copyright &copy; 2018 <strong>Interfraternity Council at Georgia Institute of Technology</strong></p>
+                    <p align="center">Copyright &copy; <?php echo date("Y"); ?> <strong>Interfraternity Council at Georgia Institute of Technology</strong></p>
                 </div>
             </div>
         </footer>
