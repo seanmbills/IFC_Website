@@ -2,7 +2,7 @@
 
 <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
-        
+
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -14,25 +14,25 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('./img/carousel/Wreck Photo Exec.png'); background-position:center bottom;"></div>
+                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/Wreck Photo Exec.png'); background-position:center bottom;"></div>
                 <div class="carousel-caption">
                     <h1 style="text-shadow:black 0px 0px 10px;">Georgia Tech IFC</h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('./img/carousel/Sigma Chi Puppy.png'); background-position:center center;"></div>
+                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/Sigma Chi Puppy.png'); background-position:center center;"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('./img/carousel/Chi Phi.png'); background-position: center top;"></div>
+                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/Chi Phi.png'); background-position: center top;"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('./img/carousel/SigEp Flag.png');"></div>
+                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/SigEp Flag.png');"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
@@ -58,7 +58,7 @@
                     <div class="panel-body">
                         <h3>WHAT WE DO</h3>
                         <br>
-                        <p>The Interfraternity Council (IFC) at Georgia Tech leads and directs the 32 member fraternities on campus. Each of the thirty-two chapters represented are members of the North-American Interfraternity Conference (NIC), an national governing body. The Interfraternity Council promotes the interests of fraternities in general, and insures cooperation among the different fraternities on campus. 
+                        <p>The Interfraternity Council (IFC) at Georgia Tech leads and directs the 32 member fraternities on campus. Each of the thirty-two chapters represented are members of the North-American Interfraternity Conference (NIC), an national governing body. The Interfraternity Council promotes the interests of fraternities in general, and insures cooperation among the different fraternities on campus.
                         <br>
                         <br>
                         <br>
@@ -77,7 +77,7 @@
                     <div class="panel-body">
                         <h3>MEET OUR EXEC</h3>
                         <br>
-                            <img class="img-responsive" src="./img/gt_ifc_example.png" style="height:auto; width:auto; margin:auto; display:block;">
+                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/gt_ifc_example.png" style="height:auto; width:auto; margin:auto; display:block;">
                         <br>
                         <a href="exec_board.html" class="btn btn-primary">Learn More!</a>
                         <br>
@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        
+
         <br>
         <hr>
         <br>
@@ -172,19 +172,19 @@
 <script>
 
 
-    function equalHeight(group) {    
-    var tallest = 0;    
-    group.each(function() {       
-        var thisHeight = $(this).height();       
-        if(thisHeight > tallest) {          
-            tallest = thisHeight;       
-        }    
-    });    
+    function equalHeight(group) {
+    var tallest = 0;
+    group.each(function() {
+        var thisHeight = $(this).height();
+        if(thisHeight > tallest) {
+            tallest = thisHeight;
+        }
+    });
     group.each(function() { $(this).height(tallest); });
-} 
+}
 
-$(document).ready(function() {   
-    equalHeight($(".panel-body")); 
+$(document).ready(function() {
+    equalHeight($(".panel-body"));
     checkResize();
 });
 
@@ -268,8 +268,8 @@ $(document).ready(function() {
 
     function getHeights(group, windowWidth) {
         if (windowWidth >= 992) {
-            var tallest = 0;    
-            group.each(function() {       
+            var tallest = 0;
+            group.each(function() {
                 var totalHeight = 0;
                 //console.log($(this));
                 $(this).children().each(function(){
@@ -277,24 +277,24 @@ $(document).ready(function() {
                     totalHeight = totalHeight + $(this).outerHeight(true);
                 });
                 //console.log(totalHeight);
-                if(totalHeight > tallest) {          
-                    tallest = totalHeight;       
-                }    
-            });    
+                if(totalHeight > tallest) {
+                    tallest = totalHeight;
+                }
+            });
             group.each(function() { $(this).height(tallest); });
         } else {
-            group.each(function() {       
+            group.each(function() {
                 var totalHeight = 0;
                 //console.log($(this));
                 $(this).children().each(function(){
                     //console.log($(this));
                     totalHeight = totalHeight + $(this).outerHeight(true);
                 });
-                //console.log(totalHeight); 
+                //console.log(totalHeight);
                 $(this).height(totalHeight);
-            });    
+            });
         }
-        
+
     }
 </script>
 
