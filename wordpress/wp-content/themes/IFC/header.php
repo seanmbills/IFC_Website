@@ -38,7 +38,7 @@
                     <?php
                         $nav = wp_get_nav_menu_items( 'primary-menu' );
                         foreach( $nav as $nav_item ) {
-                            echo '<li class="nav-item"><a href="' . $nav_item->url . '" role="presentation" class="nav-link">' . $nav_item->title . '</a></li>';
+                            echo '<li class="dropdown"><a href="' . $nav_item->url . '" role="presentation" class="nav-link">' . $nav_item->title . '</a></li>';
                         }
                     ?>
                     <!-- <li class="dropdown">
