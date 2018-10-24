@@ -17,7 +17,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Alpha Epsilon Pi</h3>
-                    <img src="./img/Chapter Crests/alpha_epsilon_pi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.aepiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/alpha_epsilon_pi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.aepiModal').modal('show');">
                 </div>
 
                 <!-- modal for AEPi's info. -->
@@ -33,20 +33,20 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" src="./img/Houses/AlphaEpsilonPi1.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/AlphaEpsilonPi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
 
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" src="./img/Houses/AlphaEpsilonPi2.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/AlphaEpsilonPi2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" src="./img/Houses/AlphaEpsilonPi3.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/AlphaEpsilonPi3.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -77,7 +77,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5 col" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/alpha_epsilon_pi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/alpha_epsilon_pi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Zeta  <br>
@@ -118,7 +118,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Alpha Sigma Phi</h3>
-                    <img src="./img/Chapter Crests/alpha_sigma_phi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.alphaSigModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/alpha_sigma_phi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.alphaSigModal').modal('show');">
                 </div>
 
                 <!-- modal for Alpha Sig's info. -->
@@ -129,13 +129,13 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" src="./img/Houses/AlphaSigmaPhi1.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/AlphaSigmaPhi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
                                     </div>
                                     <!-- <div class="item">
-                                        <img class="img-responsive" src="./img/carousel/st_baldricks.png" style="width:100%;">
+                                        <img class="img-responsive" src="<./img/carousel/st_baldricks.png" style="width:100%;">
 
                                     </div> -->
                                 </div>
@@ -160,7 +160,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5 col" style="position:relative;">
-                                        <img src="./img/Chapter Crests/alpha_sigma_phi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/alpha_sigma_phi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Tech  <br>
@@ -204,7 +204,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Alpha Tau Omega</h3>
-                    <img src="./img/Chapter Crests/alpha_tau_omega.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.atoModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/alpha_tau_omega.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.atoModal').modal('show');">
                 </div>
 
                 <!-- modal for ATO's chapter info -->
@@ -216,13 +216,13 @@
                                 <div class="carousel-inner">
 
                                     <div class="item active">
-                                        <img style="width:100%; height:auto;" class="img-responsive" src="./img/Houses/AlphaTauOmega1.png" alt="...">
+                                        <img style="width:100%; height:auto;" class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/AlphaTauOmega1.png" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" src="./img/Houses/AlphaTauOmega2.png" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/AlphaTauOmega2.png" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -253,7 +253,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/alpha_tau_omega.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/alpha_tau_omega.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Iota  <br>
@@ -294,7 +294,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Beta Theta Pi</h3>
-                    <img src="./img/Chapter Crests/beta_theta_pi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.betaModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/beta_theta_pi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.betaModal').modal('show');">
                 </div>
 
                 <!-- modal for ATO's chapter info -->
@@ -305,14 +305,14 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/BetaThetaPi1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/BetaThetaPi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
 
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive"  src="./img/Houses/BetaThetaPi2.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/BetaThetaPi2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -340,7 +340,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/beta_theta_pi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/beta_theta_pi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Eta  <br>
@@ -388,7 +388,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Chi Phi</h3>
-                    <img src="./img/Chapter Crests/chi_phi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.chiPhiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/chi_phi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.chiPhiModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Phi's info. -->
@@ -400,7 +400,7 @@
                                 <div class="carousel-inner">
 
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/ChiPhi1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/ChiPhi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -432,7 +432,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/chi_phi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/chi_phi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Omega  <br>
@@ -473,7 +473,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Chi Psi</h3>
-                    <img src="./img/Chapter Crests/chi_psi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.chiPsiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/chi_psi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.chiPsiModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Psi's info. -->
@@ -484,14 +484,14 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/ChiPsi1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/ChiPsi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
 
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive"  src="./img/Houses/ChiPsi2.JPG" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/ChiPsi2.JPG" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -519,7 +519,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/chi_psi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/chi_psi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Iota Delta  <br>
@@ -561,7 +561,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Delta Chi</h3>
-                    <img src="./img/Chapter Crests/delta_chi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.deltaChiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/delta_chi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.deltaChiModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Chi's chapter info -->
@@ -572,7 +572,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/DeltaChi1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/DeltaChi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -601,7 +601,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/delta_chi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/delta_chi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Tech  <br>
@@ -640,7 +640,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Delta Sigma Phi</h3>
-                    <img src="./img/Chapter Crests/delta_sigma_phi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.deltaSigModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/delta_sigma_phi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.deltaSigModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Sig's chapter info -->
@@ -651,7 +651,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img style="width:100%; height:auto;" class="img-responsive"  src="./img/Houses/DeltaSigmaPhi1.jpg" alt="...">
+                                        <img style="width:100%; height:auto;" class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/DeltaSigmaPhi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -682,7 +682,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/delta_sigma_phi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/delta_sigma_phi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Gamma  <br>
@@ -728,7 +728,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Delta Tau Delta</h3>
-                    <img src="./img/Chapter Crests/delta_tau_delta.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.dtdModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/delta_tau_delta.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.dtdModal').modal('show');">
                 </div>
 
                 <!-- modal for AEPi's info. -->
@@ -739,7 +739,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/DeltaTauDelta1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/DeltaTauDelta1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -770,7 +770,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/delta_tau_delta.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/delta_tau_delta.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Psi  <br>
@@ -811,7 +811,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Delta Upsilon</h3>
-                    <img src="./img/Chapter Crests/delta_upsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.deltaUpsilonModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/delta_upsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.deltaUpsilonModal').modal('show');">
                 </div>
 
                 <!-- modal for Alpha Sig's info. -->
@@ -822,14 +822,14 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/DeltaUpsilon1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/DeltaUpsilon1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
 
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive"  src="./img/Houses/DeltaUpsilon2.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/DeltaUpsilon2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -857,7 +857,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/delta_upsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/delta_upsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Tech  <br>
@@ -898,7 +898,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Kappa Alpha Order</h3>
-                    <img src="./img/Chapter Crests/kappa_alpha.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.kaModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/kappa_alpha.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.kaModal').modal('show');">
                 </div>
 
                 <!-- modal for ATO's chapter info -->
@@ -909,7 +909,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="margin-top:-5%; width:100%; height:auto;" src="./img/Houses/KappaAlphaOrder1.jpg" alt="...">
+                                        <img class="img-responsive" style="margin-top:-5%; width:100%; height:auto;" src="<?php echo get_template_directory_uri(); ?>/img/Houses/KappaAlphaOrder1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -940,7 +940,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/kappa_alpha.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/kappa_alpha.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Sigma  <br>
@@ -976,7 +976,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Kappa Sigma</h3>
-                    <img src="./img/Chapter Crests/kappa_sigma.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.kappaSigModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/kappa_sigma.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.kappaSigModal').modal('show');">
                 </div>
 
                 <!-- modal for ATO's chapter info -->
@@ -987,7 +987,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="margin-top:-5%; width:100%; height:auto;" src="./img/Houses/KappaSigma1.jpg" alt="...">
+                                        <img class="img-responsive" style="margin-top:-5%; width:100%; height:auto;" src="<?php echo get_template_directory_uri(); ?>/img/Houses/KappaSigma1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -1018,7 +1018,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/kappa_sigma.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/kappa_sigma.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Tau  <br>
@@ -1067,7 +1067,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Lambda Chi Alpha</h3>
-                    <img src="./img/Chapter Crests/lambda_chi_alpha.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.lambdaChiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/lambda_chi_alpha.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.lambdaChiModal').modal('show');">
                 </div>
 
                 <!-- modal for ATO's chapter info -->
@@ -1078,7 +1078,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/LambdaChiAlpha1.JPG" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/LambdaChiAlpha1.JPG" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -1109,7 +1109,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/lambda_chi_alpha.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/lambda_chi_alpha.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Kappa  <br>
@@ -1150,7 +1150,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Phi Delta Theta</h3>
-                    <img src="./img/Chapter Crests/phi_delta_theta.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiDeltModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_delta_theta.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiDeltModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Phi's info. -->
@@ -1161,7 +1161,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/PhiDeltaTheta1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/PhiDeltaTheta1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -1192,7 +1192,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/phi_delta_theta.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_delta_theta.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Delta  <br>
@@ -1233,7 +1233,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Phi Gamma Delta</h3>
-                    <img src="./img/Chapter Crests/phi_gamma_delta.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.fijiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_gamma_delta.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.fijiModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Psi's info. -->
@@ -1244,7 +1244,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/PhiGammaDelta1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/PhiGammaDelta1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -1275,7 +1275,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/phi_gamma_delta.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_gamma_delta.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Tau  <br>
@@ -1315,7 +1315,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Phi Kappa Psi</h3>
-                    <img src="./img/Chapter Crests/phi_kappa_psi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiPsiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_kappa_psi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiPsiModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Chi's chapter info -->
@@ -1326,7 +1326,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="margin-bottom:-10%" src="./img/Houses/PhiKappaPsi1.jpg" alt="...">
+                                        <img class="img-responsive" style="margin-bottom:-10%" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PhiKappaPsi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -1355,7 +1355,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/phi_kappa_psi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_kappa_psi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Beta  <br>
@@ -1403,7 +1403,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Phi Kappa Sigma</h3>
-                    <img src="./img/Chapter Crests/phi_kappa_sigma.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiSigModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_kappa_sigma.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiSigModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Sig's chapter info -->
@@ -1414,7 +1414,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" src="./img/Houses/PhiKappaSigma1.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PhiKappaSigma1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -1445,7 +1445,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/phi_kappa_sigma.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_kappa_sigma.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Nu  <br>
@@ -1486,7 +1486,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Phi Kappa Tau</h3>
-                    <img src="./img/Chapter Crests/phi_kappa_tau.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiTauModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_kappa_tau.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiTauModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Phi's info. -->
@@ -1497,14 +1497,14 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="./img/Houses/PhiKappaTheta1.jpg" alt="...">
+                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PhiKappaTheta1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
 
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="./img/Houses/PhiKappaTheta2.jpg" alt="...">
+                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PhiKappaTheta2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -1537,7 +1537,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/phi_kappa_tau.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_kappa_tau.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Rho Colony  <br>
@@ -1577,7 +1577,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Phi Kappa Theta</h3>
-                    <img src="./img/Chapter Crests/phi_kappa_theta.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiKappaThetaModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_kappa_theta.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiKappaThetaModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Phi's info. -->
@@ -1588,14 +1588,14 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="./img/Houses/PhiKappaTheta1.jpg" alt="...">
+                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PhiKappaTheta1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
 
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="./img/Houses/PhiKappaTheta2.jpg" alt="...">
+                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PhiKappaTheta2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -1622,7 +1622,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/phi_kappa_theta.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_kappa_theta.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Tau  <br>
@@ -1663,7 +1663,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Phi Sigma Kappa</h3>
-                    <img src="./img/Chapter Crests/phi_sigma_kappa.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiSigmaKappaModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_sigma_kappa.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.phiSigmaKappaModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Psi's info. -->
@@ -1674,7 +1674,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="./img/Houses/PhiSigmaKappa1.jpg" alt="...">
+                                        <img class="img-responsive" style="margin-top:-10%; margin-bottom:-10%;" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PhiSigmaKappa1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -1705,7 +1705,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/phi_sigma_kappa.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/phi_sigma_kappa.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Kappa Deuteron  <br>
@@ -1756,7 +1756,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Pi Kappa Alpha</h3>
-                    <img src="./img/Chapter Crests/pi_kappa_alpha.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.pikeModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/pi_kappa_alpha.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.pikeModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Chi's chapter info -->
@@ -1767,14 +1767,14 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" src="./img/Houses/PiKappaAlpha1.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PiKappaAlpha1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
 
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" src="./img/Houses/PiKappaAlpha2.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PiKappaAlpha2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -1805,7 +1805,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/pi_kappa_alpha.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/pi_kappa_alpha.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Delta  <br>
@@ -1846,7 +1846,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Pi Kappa Phi</h3>
-                    <img src="./img/Chapter Crests/pi_kappa_phi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.piKappModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/pi_kappa_phi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.piKappModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Sig's chapter info -->
@@ -1857,14 +1857,14 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" src="./img/Houses/PiKappaPhi1.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PiKappaPhi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
 
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" src="./img/Houses/PiKappaPhi2.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PiKappaPhi2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -1891,7 +1891,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/pi_kappa_phi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/pi_kappa_phi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Iota  <br>
@@ -1932,7 +1932,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Psi Upsilon</h3>
-                    <img src="./img/Chapter Crests/psi_upsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.psiUModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/psi_upsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.psiUModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Phi's info. -->
@@ -1943,14 +1943,14 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="width:100%; height:auto; margin-bottom:-5%;"src="./img/Houses/PsiUpsilon1.jpg" alt="...">
+                                        <img class="img-responsive" style="width:100%; height:auto; margin-bottom:-5%;"src="<?php echo get_template_directory_uri(); ?>/img/Houses/PsiUpsilon1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
 
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" style="margin-bottom:-5%" src="./img/Houses/PsiUpsilon2.jpg" alt="...">
+                                        <img class="img-responsive" style="margin-bottom:-5%" src="<?php echo get_template_directory_uri(); ?>/img/Houses/PsiUpsilon2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -1977,7 +1977,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/psi_upsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/psi_upsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Tau  <br>
@@ -2018,7 +2018,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Sigma Alpha Epsilon</h3>
-                    <img src="./img/Chapter Crests/sigma_alpha_epsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.saeModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_alpha_epsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.saeModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Psi's info. -->
@@ -2029,7 +2029,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="width:100%; height:auto;" src="./img/Houses/SigmaAlphaEpsilon1.jpg" alt="...">
+                                        <img class="img-responsive" style="width:100%; height:auto;" src="<?php echo get_template_directory_uri(); ?>/img/Houses/SigmaAlphaEpsilon1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -2060,7 +2060,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/sigma_alpha_epsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_alpha_epsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Phi  <br>
@@ -2104,7 +2104,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Sigma Chi</h3>
-                    <img src="./img/Chapter Crests/sigma_chi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.sigmaChiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_chi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.sigmaChiModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Chi's chapter info -->
@@ -2115,13 +2115,13 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" src="./img/Houses/SigmaChi1.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/SigmaChi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" src="./img/Houses/SigmaChi2.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/SigmaChi2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -2148,7 +2148,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/sigma_chi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_chi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Psi  <br>
@@ -2189,7 +2189,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Sigma Nu</h3>
-                    <img src="./img/Chapter Crests/sigma_nu.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.snuModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_nu.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.snuModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Sig's chapter info -->
@@ -2200,7 +2200,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="width:100%; height:auto; margin-top:-5%; margin-bottom:-5%;"src="./img/Houses/SigmaNu1.jpg" alt="...">
+                                        <img class="img-responsive" style="width:100%; height:auto; margin-top:-5%; margin-bottom:-5%;"src="<?php echo get_template_directory_uri(); ?>/img/Houses/SigmaNu1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -2228,7 +2228,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/sigma_nu.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_nu.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Alpha  <br>
@@ -2267,7 +2267,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Sigma Phi Epsilon</h3>
-                    <img src="./img/Chapter Crests/sigma_phi_epsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.sigEpModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_phi_epsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.sigEpModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Phi's info. -->
@@ -2278,7 +2278,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" style="width:100%; height:auto;" src="./img/Houses/SigmaPhiEpsilon1.jpg" alt="...">
+                                        <img class="img-responsive" style="width:100%; height:auto;" src="<?php echo get_template_directory_uri(); ?>/img/Houses/SigmaPhiEpsilon1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -2286,7 +2286,7 @@
                                     </div>
 
                                     <div class="item">
-                                        <img class="img-responsive" src="./img/Houses/SigmaPhiEpsilon2.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/SigmaPhiEpsilon2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -2313,7 +2313,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/sigma_phi_epsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_phi_epsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Alpha  <br>
@@ -2353,7 +2353,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Tau Kappa Epsilon</h3>
-                    <img src="./img/Chapter Crests/tau_kappa_epsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.tkeModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/tau_kappa_epsilon.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.tkeModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Chi's chapter info -->
@@ -2364,13 +2364,13 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" src="./img/Houses/TauKappaEpsilon1.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/TauKappaEpsilon1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" src="./img/Houses/TauKappaEpsilon2.jpg" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/TauKappaEpsilon2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -2397,7 +2397,7 @@
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/tau_kappa_epsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/tau_kappa_epsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Pi  <br>
@@ -2442,7 +2442,7 @@
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Theta Chi</h3>
-                    <img src="./img/Chapter Crests/theta_chi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.thetaChiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/theta_chi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.thetaChiModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Sig's chapter info -->
@@ -2453,7 +2453,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/ThetaChi1.jpg" alt="...">
+                                        <img class="img-responsive"  src=".<?php echo get_template_directory_uri(); ?>img/Houses/ThetaChi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -2483,7 +2483,7 @@
 Since its founding in 1856, Theta Chi Fraternity has grown to more than 219 chapters and colonies across North America and has initiated over 170,000 brothers. The Alpha Nu Chapter of Theta Chi Fraternity was founded at Georgia Tech in 1923. Since then, Theta Chi has been making men better in all areas of life, extending beyond the college years alone. Our 71 brothers strive to develop leadership through campus involvement and through the many different positions available within the house. Some of the many campus organizations that our brothers participate are FASET Orientation, Connect With Tech, the Interfraternity Council, the Ramblin’ Reck Club, GT Student Foundation, GT Tour Guides, as well as SGA. Brothers are also involved in religious organizations on campus as well as being members of numerous honor organizations. At Theta Chi, we believe in the Helping Hand and volunteer many hours to benefit the surrounding community as well as our very own Shirlock Foundation. We are great enthusiasts of athletics and sports by competing in Greek Week and Georgia Tech intramurals. In the last six out of seven years, we have been Greek Week Champions. Furthermore, some of our brothers are also involved in many of Georgia Tech's organizations including athletic clubs such as GT Rugby and GT Crew. Our house was built in 2003 and is able to comfortably house forty-four brothers. We are also one of only two houses on campus that enjoy a heated swimming pool. Throughout the year, Theta Chi hosts a large number of social events such as band parties, trips to away football games, summer lake trips, winter cabin weekends, as well as our spring Red Carnation formal. Amid all these different facets, Theta Chi is a place to grow and create a bond of brotherhood for life. We are ordinary men doing extraordinary things.                                        </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/theta_chi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/theta_chi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Nu  <br>
@@ -2524,7 +2524,7 @@ Since its founding in 1856, Theta Chi Fraternity has grown to more than 219 chap
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Theta Xi</h3>
-                    <img src="./img/Chapter Crests/theta_xi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.thetaXiModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/theta_xi.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.thetaXiModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Phi's info. -->
@@ -2535,7 +2535,7 @@ Since its founding in 1856, Theta Chi Fraternity has grown to more than 219 chap
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive" src="./img/Houses/ThetaXi1.JPG" alt="...">
+                                        <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/Houses/ThetaXi1.JPG" alt="...">
                                         <div class="carousel-caption">
                                             <!-- <h2 style="text-shadow:black 0px 0px 10px;">Alpha Epsilon Pi</h2> -->
                                         </div>
@@ -2563,7 +2563,7 @@ The Beta Alpha Chapter of the Theta Xi Fraternity is a brotherhood of Christian 
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/theta_xi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/theta_xi.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Alpha  <br>
@@ -2604,7 +2604,7 @@ The Beta Alpha Chapter of the Theta Xi Fraternity is a brotherhood of Christian 
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Triangle</h3>
-                    <img src="./img/Chapter Crests/triangle.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.triangleModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/triangle.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.triangleModal').modal('show');">
                 </div>
 
                 <!-- modal for Chi Psi's info. -->
@@ -2615,7 +2615,7 @@ The Beta Alpha Chapter of the Theta Xi Fraternity is a brotherhood of Christian 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/Triangle1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/Triangle1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -2645,7 +2645,7 @@ The Beta Alpha Chapter of the Theta Xi Fraternity is a brotherhood of Christian 
 All Triangle Fraternity brothers strive to be leaders in the campus, local community, and their chosen fields of study. In order to do so, our brothers and volunteers are aware of our mission. Triangle’s purpose is as follows: The purpose of Triangle shall be to maintain a fraternity of engineers, architects and scientists. It shall carry out its purpose by establishing chapters that develop balanced men who cultivate high moral character, foster lifelong friendships, and live their lives with integrity. For more information about Triangle Fraternity and how you can get involved with the establishment of its chapter here at Georgia Tech, please contact Brandon Montalvo: brandon@triangle.org | (408) 375-5728 | triangle.org                                        </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/triangle.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/triangle.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Tech  <br>
@@ -2680,7 +2680,7 @@ All Triangle Fraternity brothers strive to be leaders in the campus, local commu
 
                 <div class="col-md-3 col-sm-3 ">
                     <h3 style="text-align:center;">Zeta Beta Tau</h3>
-                    <img src="./img/Chapter Crests/zeta_beta_tau.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.zbtModal').modal('show');">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/zeta_beta_tau.png" class="thumbnail img-responsive" style="margin:auto; margin-bottom:5px;" onclick="$('.zbtModal').modal('show');">
                 </div>
 
                 <!-- modal for Delta Chi's chapter info -->
@@ -2691,7 +2691,7 @@ All Triangle Fraternity brothers strive to be leaders in the campus, local commu
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src="./img/Houses/ZetaBetaTau1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/ZetaBetaTau1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -2722,7 +2722,7 @@ Zeta Beta Tau Xi chapter is an eclectic set of highly motivated individuals unif
                                         </p>
                                     </div>
                                     <div class="col-md-5" style="position:relative;height:100%;">
-                                        <img src="./img/Chapter Crests/zeta_beta_tau.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/zeta_beta_tau.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Xi  <br>
