@@ -108,10 +108,10 @@
                         <br>
                         <?php the_content(); ?>
                         <br>
-                        <?php the_date(); ?>
+                        Posted On: <?php echo get_the_date(); ?>
                         <br>
                         <hr>
-                        <br>
+                        
                     </p>
                 <?php endwhile; endif; ?>
                 </div>
