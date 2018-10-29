@@ -1,3 +1,6 @@
+<?php /* Template Name: resources-template */ ?>
+
+
 <?php get_header(); ?>
 
     <div class="container" z-index:2000 style="margin-top:50px;">

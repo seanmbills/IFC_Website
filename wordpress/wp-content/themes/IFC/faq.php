@@ -1,3 +1,6 @@
+<?php /* Template Name: faq-template */ ?>
+
+
 <?php get_header(); ?>
 
     <!-- Page Content -->

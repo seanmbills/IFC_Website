@@ -1,3 +1,6 @@
+<?php /* Template Name: rush-calendar-template */ ?>
+
+
 <?php get_header(); ?>
 
     <!-- Page Content -->
