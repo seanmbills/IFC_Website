@@ -47,19 +47,23 @@
                                 // save this id for later comparison with sub-menu items
                                 $parent_id = $item->ID;
                     ?>
-
                         <li class="dropdown">
-                            <?php if ($parent_id == $item->menu_item_parent): ?>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $title; ?><b class="caret"></b></a>
-                            <?php else :?>
-                            <a href="<?php echo $link; ?>">
-                                <?php echo $title; ?>
-                            </a>
-                        <?php endif; endif; ?>
+                            <?php if ($count + 1 < count($nav)):
+                                    if ($nav[$count+1]->menu_item_parent != $parent_id): ?>
+                                        <a href="<?php echo $link; ?>">
+                                            <?php echo $title; ?>
+                                        </a>
+                                    <?php endif; elseif ($count + 1 == count($nav)): ?>
+                                        <a href="<?php echo $link; ?>">
+                                            <?php echo $title; ?>
+                                        </a>
+                            <?php endif; ?>
+                        <?php endif; ?>
 
                             <?php if ( $parent_id == $item->menu_item_parent ): ?>
 
                                 <?php if ( !$submenu ): $submenu = true; ?>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $nav[$count - 1]->title ?><b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                 <?php endif; ?>
 
