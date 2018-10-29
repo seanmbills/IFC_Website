@@ -37,66 +37,52 @@
                 <ul class="nav navbar-nav navbar-right">
                     <?php
                         $nav = wp_get_nav_menu_items( 'primary-menu' );
-                        foreach( $nav as $nav_item ) {
-                            echo '<li class="dropdown"><a href="' . $nav_item->url . '" role="presentation" class="nav-link">' . $nav_item->title . '</a></li>';
-                        }
+                        $count = 0;
+                        $submenu = false;
+                        foreach( $nav as $item ):
+                            $link = $item->url;
+                            $title = $item->title;
+                            // item does not have a parent so menu_item_parent equals 0 (false)
+                            if ( !$item->menu_item_parent ):
+                                // save this id for later comparison with sub-menu items
+                                $parent_id = $item->ID;
                     ?>
-                    <!-- <li class="dropdown">
-                        <a href="index.html">HOME</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="chapters.html">CHAPTERS</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">RECRUITMENT<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="chapter-scholarships.html">Student Scholarships</a>
-                            </li>
-                            <li>
-                                <a href="parents-information.html">Information for Parents and Guide to Greek Life</a>
-                            </li>
-                            <li>
-                                <a href="rush-calendar.html">Recruitment Events Calendar</a>
-                            </li>
-							<li>
-                                <a href="https://orgsync.com/136187/forms/322105">Register for Fall 2018 Recruitment</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="https://gt.crowdchange.co/" target="_blank">PHILANTHROPY</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="exec_board.html">EXEC BOARD</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="chairmen.html">COMMITTEE CHAIRMEN</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="blog.html">BLOG</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="resources.html">RESOURCES</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="faq.html">FAQ</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="https://www.facebook.com/gtifc/" style="background-color:#4468b0!important; color:white!important;">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="https://www.instagram.com/gt_ifc/" class="instagram">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="https://twitter.com/GT_IFC" style="background-color:#2aa3ef!important; color:white!important;">
-                            <i style="font-size:1em;" class="fa fa-twitter"></i>
-                        </a>
-                    </li> -->
+                        <li class="dropdown">
+                            <?php if ($count + 1 < count($nav)):
+                                    if ($nav[$count+1]->menu_item_parent != $parent_id): ?>
+                                        <a href="<?php echo $link; ?>">
+                                            <?php echo $title; ?>
+                                        </a>
+                                    <?php endif; elseif ($count + 1 == count($nav)): ?>
+                                        <a href="<?php echo $link; ?>">
+                                            <?php echo $title; ?>
+                                        </a>
+                            <?php endif; ?>
+                        <?php endif; ?>
+
+                            <?php if ( $parent_id == $item->menu_item_parent ): ?>
+
+                                <?php if ( !$submenu ): $submenu = true; ?>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $nav[$count - 1]->title ?><b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                <?php endif; ?>
+
+                                    <li>
+                                        <a href="<?php echo $link; ?>"><?php echo $title; ?></a>
+                                    </li>
+
+                                <?php if ( $nav[ $count + 1 ]->menu_item_parent != $parent_id && $submenu ): ?>
+                                </ul>
+                                <?php $submenu = false; endif; ?>
+
+                            <?php endif; ?>
+
+                        <?php if ($count + 1 > count($nav)):
+                                if ($nav[ $count + 1 ]->menu_item_parent != $parent_id ): ?>
+                                    </li>                           
+                        <?php $submenu = false; endif; endif; ?>
+
+                    <?php $count++; endforeach; ?>
                 </ul>
 
             </div>
