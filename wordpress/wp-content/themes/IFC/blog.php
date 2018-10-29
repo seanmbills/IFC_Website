@@ -1,3 +1,5 @@
+<?php /* Template Name: blog */ ?>
+
 <?php get_header(); ?>
 
     <!-- Page Content -->
@@ -15,360 +17,107 @@
         <div class="row">
             <div class="col-lg-12">
                 <div id="blog">
+                    <?php 
+                        $args = array(
+                            'posts_per_page'   => -1,
+                            'post_type'        => 'post',
+                        );
+                        $the_query = new WP_Query( $args );
+                    ?>
 
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade post0Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-            <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-                <div class="modal-content">
-                    <div id="carousel-controls-post0" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post0Contents" style="height:auto!important;">
-
-                                    </div>
-                                </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
-                            </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post0" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post9Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-controls-post0" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post1Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
-                        </a>
+                    <?php if($the_query->have_posts()):
+                            $count = 0;
+                            while($the_query->have_posts() && $count < 10):
+                                $the_query->the_post();
+                                
+                    ?>
+                    <div class="post<?php echo $count; ?>">
+                        <p>
+                            <strong>
+                                <?php 
+                                    the_title();
+                                ?>
+                            </strong>
+                            <br>
+                            <?php the_excerpt(); ?>
+                            <a data-toggle="modal" data-target=".post<?php echo $count; ?>Modal">Show more...</a><br>
+                            <br>
+                            Posted On: <?php echo get_the_date(); ?>
+                            <br>
+                            <hr>
+                            
+                        </p>
                     </div>
+                <?php $count++; ?>
+                <?php endwhile; endif; ?>
                 </div>
             </div>
         </div>
 
-        <div class="modal fade post1Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
+        <?php 
+            $args = array(
+                'posts_per_page'   => -1,
+                'post_type'        => 'post',
+            );
+            $the_query = new WP_Query( $args );
+        ?>
+
+        <?php
+            if($the_query->have_posts()):
+                $count = 0;
+                while($the_query->have_posts() && $count < 10):
+                    $the_query->the_post();
+        ?>
+
+        <div class="modal fade post<?php echo $count; ?>Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
             <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
                 <div class="modal-content">
-                    <div id="carousel-controls-post1" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
+                    <div id="carousel-controls-post<?php echo $count; ?>" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="col-lg-12">
                                     <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post1Contents" style="height:auto!important;">
-
+                                    <div class="col-lg-8 post<?php echo $count; ?>Contents" style="height:auto!important;">
+                                        <br>
+                                        <h3><strong><?php the_title(); ?></strong></h3>
+                                        <hr>
+                                        <p>
+                                            <?php the_content(); ?>
+                                            <br>
+                                            Posted On: <?php echo get_the_date(); ?>
+                                            <br>
+                                            <br>
+                                        </p>
                                     </div>
                                 </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
                             </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
                         </div>
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post1" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post0Modal" style="background-image: none!important;">
+                        <a class="left carousel-control" href="#carousel-controls-post<?php echo $count; ?>" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post9Modal" style="background-image: none!important;">
                             <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
                         </a>
-                        <a class="right carousel-control" href="#carousel-controls-post1" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post2Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade post2Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-            <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-                <div class="modal-content">
-                    <div id="carousel-controls-post2" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post2Contents" style="height:auto!important;">
-
-                                    </div>
-                                </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
-                            </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post2" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post1Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-controls-post2" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post3Modal" style="background-image: none!important;">
+                        <a class="right carousel-control" href="#carousel-controls-post<?php echo $count; ?>" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post<?php echo (($count + 1) % 10); ?>Modal" style="background-image: none!important;">
                             <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+                <!-- // // print out the outer modal container
+                // echo "<div class='modal fade post" . $count . "Modal' tabindex='-1' role='dialog' aria-labelledby='myLargeModalLabel' aria-hidden='true'>";
+                // // print the inner modal dialog container
+                // echo "<div class='modal-dialog modal-lg'>";
+                // // echo "<"
 
-        <div class="modal fade post3Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-            <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-                <div class="modal-content">
-                    <div id="carousel-controls-post3" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post3Contents" style="height:auto!important;">
+                // //close inner modal dialog
+                // echo "</div>";
+                // // close outer modal container
+                // echo "</div>"; -->
+        <?php $count++; ?>
+        <?php endwhile; endif; ?>
 
-                                    </div>
-                                </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
-                            </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post3" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post2Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-controls-post3" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post4Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade post4Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-            <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-                <div class="modal-content">
-                    <div id="carousel-controls-post4" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post4Contents" style="height:auto!important;">
-
-                                    </div>
-                                </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
-                            </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post4" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post3Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-controls-post4" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post5Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade post5Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-            <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-                <div class="modal-content">
-                    <div id="carousel-controls-post5" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post5Contents" style="height:auto!important;">
-
-                                    </div>
-                                </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
-                            </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post5" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post4Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-controls-post5" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post6Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade post6Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-            <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-                <div class="modal-content">
-                    <div id="carousel-controls-post6" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post6Contents" style="height:auto!important;">
-
-                                    </div>
-                                </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
-                            </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post6" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post5Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-controls-post6" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post7Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>.
-        </div>
-
-        <div class="modal fade post7Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-            <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-                <div class="modal-content">
-                    <div id="carousel-controls-post7" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post7Contents" style="height:auto!important;">
-
-                                    </div>
-                                </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
-                            </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post7" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post6Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-controls-post7" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post8Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>.
-        </div>
-
-        <div class="modal fade post8Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-            <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-                <div class="modal-content">
-                    <div id="carousel-controls-post8" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post8Contents" style="height:auto!important;">
-
-                                    </div>
-                                </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
-                            </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post8" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post7Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-controls-post8" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post9Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>.
-        </div>
-
-        <div class="modal fade post9Modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"><!--This class matches the button target-->
-            <div class="modal-dialog modal-lg"><!--This will also affect your modal size, look into it-->
-                <div class="modal-content">
-                    <div id="carousel-controls-post9" class="carousel slide" data-ride="carousel"><!--This calls the controls for the carousel, note the id-->
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-12">
-                                    <div class="col-lg-2"></div>
-                                    <div class="col-lg-8 post9Contents" style="height:auto!important;">
-
-                                    </div>
-                                </div>
-                                <!-- <img class="img-responsive" src="./img/Houses/TKE.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div> -->
-                            </div>
-                            <!-- <div class="item">
-                                <img class="img-responsive" src="./img/Houses/TKEHouse.jpg" alt="...">
-                                <div class="carousel-caption">
-                                </div>
-                            </div> -->
-                        </div>
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-controls-post9" role="button" data-slide="prev" data-dismiss="modal" data-toggle="modal" data-target=".post8Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-left" style="color:black!important;"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-controls-post9" role="button" data-slide="next" data-dismiss="modal" data-toggle="modal" data-target=".post0Modal" style="background-image: none!important;">
-                            <span class="glyphicon glyphicon-chevron-right" style="color:black!important;"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>.
-        </div>
+        
 
 
         <br>
@@ -384,55 +133,55 @@
     <script>
     
         // console.log("made it here...");
-        $(window).on("load", getWordPress());
+        // $(window).on("load", getWordPress());
 
-        async function getWordPress() {
-            var titles = [];
-        var contents = [];
-        var dates = [];
-        var excerpts = [];
+        // async function getWordPress() {
+        //     var titles = [];
+        // var contents = [];
+        // var dates = [];
+        // var excerpts = [];
 
-            await $.ajax({
-                type:'GET',
-                dataType:"jsonp",
-                url:"http://public-api.wordpress.com/rest/v1.1/sites/ifcgatech.wordpress.com/posts/?http_envelope=true&amp;number=10",
+        //     await $.ajax({
+        //         type:'GET',
+        //         dataType:"jsonp",
+        //         url:"http://public-api.wordpress.com/rest/v1.1/sites/ifcgatech.wordpress.com/posts/?http_envelope=true&amp;number=10",
 
-                success: function(result) {
-                    console.log(result);
-                    var body = result['body'];
-                    var found = parseInt(body['found']);
-                    posts = body['posts'];
-                    console.log(posts);
-                    console.log(posts);
-                    var i;
-                    for (i = 0; i < found; i++) {
-                        post = posts[i];
-                        //console.log(post);
-                        titles.push(post['title']);
-                        contents.push(post['content']);
-                        excerpts.push(post['excerpt']);
-                        var date = new Date(post['date']);
-                        var newDate = date.toString('dd-MM-yy');
-                        dates.push(newDate);
-                    }
+        //         success: function(result) {
+        //             console.log(result);
+        //             var body = result['body'];
+        //             var found = parseInt(body['found']);
+        //             posts = body['posts'];
+        //             console.log(posts);
+        //             console.log(posts);
+        //             var i;
+        //             for (i = 0; i < found; i++) {
+        //                 post = posts[i];
+        //                 //console.log(post);
+        //                 titles.push(post['title']);
+        //                 contents.push(post['content']);
+        //                 excerpts.push(post['excerpt']);
+        //                 var date = new Date(post['date']);
+        //                 var newDate = date.toString('dd-MM-yy');
+        //                 dates.push(newDate);
+        //             }
 
-                }
-            });
-            var blogContent = "";
-            for (var i = 0; i < titles.length; i++) {
-                blogContent += '<div class="post' + i + '">';
-                blogContent += "<h3><strong>" + titles[i] + "</strong></h3><br><h5>";
-                blogContent += excerpts[i];
-                blogContent += "<a onclick=" + "$('.post" + i + "Modal').modal('show');" + ">Show more...</a><br>";
-                blogContent += "<br>Posted On: " + dates[i] + "<br><hr><br>";
-                blogContent == '</h5>';
-                blogContent += "</div>";
-                $(".post" + i + "Contents").html("<br><h3 style='text-align:center;'>" + titles[i] + "</h3><hr><h5>" + contents[i] + "<br><br>"
-                    + dates[i] + "</h5>");
-            }
-            // update the contents of the blog div on the home page
-            $("#blog").html(blogContent);
-        }
+        //         }
+        //     });
+        //     var blogContent = "";
+        //     for (var i = 0; i < titles.length; i++) {
+        //         blogContent += '<div class="post' + i + '">';
+        //         blogContent += "<h3><strong>" + titles[i] + "</strong></h3><br><h5>";
+        //         blogContent += excerpts[i];
+        //         blogContent += "<a onclick=" + "$('.post" + i + "Modal').modal('show');" + ">Show more...</a><br>";
+        //         blogContent += "<br>Posted On: " + dates[i] + "<br><hr><br>";
+        //         blogContent == '</h5>';
+        //         blogContent += "</div>";
+        //         $(".post" + i + "Contents").html("<br><h3 style='text-align:center;'>" + titles[i] + "</h3><hr><h5>" + contents[i] + "<br><br>"
+        //             + dates[i] + "</h5>");
+        //     }
+        //     // update the contents of the blog div on the home page
+        //     $("#blog").html(blogContent);
+        // }
 
 
     // $(window).on("load", async function() {
