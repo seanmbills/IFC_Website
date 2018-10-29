@@ -1,3 +1,6 @@
+<?php /* Template Name: rush-template */ ?>
+
+
 <?php get_header(); ?>
 
     <!-- Page Content -->

@@ -1,3 +1,6 @@
+<?php /* Template Name: parents-info-template */ ?>
+
+
 <?php get_header(); ?>
 
     <!-- Page Content -->

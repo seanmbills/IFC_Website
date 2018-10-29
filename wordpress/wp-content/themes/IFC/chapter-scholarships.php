@@ -1,3 +1,6 @@
+<?php /* Template Name: chapter-scholarships */ ?>
+
+
 <?php get_header(); ?>
 
     <!-- Page Content -->

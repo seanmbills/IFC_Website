@@ -1,3 +1,6 @@
+<?php /* Template Name: chapters-template */ ?>
+
+
 <?php get_header(); ?>
 
     <!-- Page Content -->
