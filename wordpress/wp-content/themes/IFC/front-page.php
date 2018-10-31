@@ -1,3 +1,7 @@
+
+<?php /* Template Name: front-page-template */ ?>
+
+
 <?php get_header(); ?>
 
 <!-- Header Carousel -->
