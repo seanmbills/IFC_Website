@@ -64,6 +64,7 @@ whitelistParam(url='/(?:lint|import)\.php$/i', param=request.body['sql_query'])
 whitelistParam(url='/\/wp-admin\/admin-ajax\.php$/i', param=request.body['divi_integration_body'])
 whitelistParam(url='/\/wp-admin\/admin-ajax\.php$/i', param=request.body['divi_integration_head'])
 whitelistParam(url='/.*/', param=request.body['fl_builder_data']['settings']['html'], rules=[9], conditional=((currentUserIs('administrator', server.empty) or currentUserIs('editor', server.empty))))
+whitelistParam(url='/.*/', param=request.body['partials'], rules=[9], conditional=((currentUserIs('administrator', server.empty))))
 whitelistParam(url='#wp\-admin/+options\-general.php$#i', param=request.body['options']['modules']['ga_code'], rules=[9])
 whitelistParam(url='#importbuddy\.php$#i', param=request.fileNames, rules=[76])
 

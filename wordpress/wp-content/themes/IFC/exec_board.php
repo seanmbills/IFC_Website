@@ -20,8 +20,8 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/President.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Jack Corelli</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-215-906-3544">215-906-3544</a></p>
+                            <h3><?php the_field('president_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-215-906-3544"><?php the_field('president_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:president@ifc.greek.gatech.edu">president@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -32,8 +32,8 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/ExecutiveVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Sam Medinger</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-488-3029">678-488-3029</a></p>
+                            <h3><?php the_field('evp_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-488-3029"><?php the_field('evp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:executivevp@ifc.greek.gatech.edu">executivevp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -44,8 +44,8 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/AdministrativeVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Nick Ahern</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-877-2111">404-877-2111</a></p>
+                            <h3><?php the_field('avp_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-877-2111"><?php the_field('avp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:adminvp@ifc.greek.gatech.edu">adminvp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -61,8 +61,8 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/ProgrammingVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Wilson Pu</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-641-3325">404-641-3325</a></p>
+                            <h3><?php the_field('pvp_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-641-3325"><?php the_field('pvp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:programmingvp@ifc.greek.gatech.edu">programmingvp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -73,8 +73,8 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/RecruitmentVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Graham Ely</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-484-683-1216">484-683-1216</a></p>
+                            <h3><?php the_field('rvp_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-484-683-1216"><?php the_field('rvp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:recruitmentvp@ifc.greek.gatech.edu">recruitmentvp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -85,8 +85,8 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/FinanceVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Kyle Green</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-525-7999">678-525-7999</a></p>
+                            <h3><?php the_field('fvp_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-525-7999"><?php the_field('fvp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:financevp@ifc.greek.gatech.edu">financevp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -105,8 +105,8 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/CommunicationsVP.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Erik Van Winkle</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-754-8648">404-754-8648</a></p>
+                            <h3><?php the_field('cvp_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-754-8648"><?php the_field('cvp_phone'); ?></a></p>
                             <!-- <br> -->
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:communicationsvp@ifc.greek.gatech.edu">communicationsvp@ifc.greek.gatech.edu</a></p>
                             <!-- <br> -->
@@ -119,8 +119,8 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Exec Photos/RushChairman.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Chase Anderton</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-315-1281">678-315-1281</a></p>
+                            <h3><?php the_field('rush_chairman_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-315-1281"><?php the_field('rush_chairman_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:rush@ifc.greek.gatech.edu">rush@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
