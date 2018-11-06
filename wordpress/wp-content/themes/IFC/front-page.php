@@ -18,25 +18,29 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/Wreck Photo Exec.png'); background-position:center bottom;"></div>
+                <?php $carousel1 = get_field('carousel_photo_1'); ?>
+                <div class="fill" style="background-image:url('<?php echo $carousel1['url']; ?>'); background-position:center bottom;"></div>
                 <div class="carousel-caption">
                     <h1 style="text-shadow:black 0px 0px 10px;">Georgia Tech IFC</h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/Sigma Chi Puppy.png'); background-position:center center;"></div>
+                <?php $carousel2 = get_field('carousel_photo_2'); ?>
+                <div class="fill" style="background-image:url('<?php echo $carousel2['url']; ?>'); background-position:center center;"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/Chi Phi.png'); background-position: center top;"></div>
+                <?php $carousel3 = get_field('carousel_photo_3'); ?>
+                <div class="fill" style="background-image:url('<?php echo $carousel3['url']; ?>'); background-position: center top;"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/SigEp Flag.png');"></div>
+                <?php $carousel4 = get_field('carousel_photo_4'); ?>
+                <div class="fill" style="background-image:url('<?php echo $carousel4['url']; ?>');"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
@@ -81,7 +85,8 @@
                     <div class="panel-body">
                         <h3>MEET OUR EXEC</h3>
                         <br>
-                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/gt_ifc_example.png" style="height:auto; width:auto; margin:auto; display:block;">
+                            <?php $exec = get_field('exec_photo'); ?>
+                            <img class="img-responsive" src="<?php echo $exec['url']; ?>" style="height:auto; width:auto; margin:auto; display:block;">
                         <br>
                         <a href="exec_board.html" class="btn btn-primary">Learn More!</a>
                         <br>
@@ -105,7 +110,7 @@
                     ?>
                     <p>
                         <strong>
-                            <?php 
+                            <?php
                                 the_title();
                             ?>
                         </strong>
@@ -115,7 +120,7 @@
                         Posted On: <?php echo get_the_date(); ?>
                         <br>
                         <hr>
-                        
+
                     </p>
                 <?php endwhile; endif; ?>
                 </div>
@@ -138,7 +143,7 @@
     });
     </script>
 
-    <!-- script to control changing the colors of the navigation bar and whatnot at the 
+    <!-- script to control changing the colors of the navigation bar and whatnot at the
          top of the screen when the user scrolls past a certain point -->
     <script>
         $(window).on("scroll", function() {
@@ -266,7 +271,7 @@ $(document).ready(function() {
             $(".meet-our-exec").addClass("col-md-12");
             $(".meet-our-exec").addClass("col-sm-12");
         }
-        
+
         getHeights($(".panel-body"), winWidth);
     }
 
