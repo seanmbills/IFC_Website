@@ -36,7 +36,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/IFC Logo reverse.png');width:125px;"></a>
+                <a class="navbar-brand" href="index.html" style="background-image:url('./img/IFC Logo reverse.png');width:125px;"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -107,7 +107,7 @@
 
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
-
+        
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -119,25 +119,25 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/Wreck Photo Exec.png'); background-position:center bottom;"></div>
+                <div class="fill" style="background-image:url('./img/carousel/Wreck Photo Exec.png'); background-position:center bottom;"></div>
                 <div class="carousel-caption">
                     <h1 style="text-shadow:black 0px 0px 10px;">Georgia Tech IFC</h1>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/Sigma Chi Puppy.png'); background-position:center center;"></div>
+                <div class="fill" style="background-image:url('./img/carousel/Sigma Chi Puppy.png'); background-position:center center;"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/Chi Phi.png'); background-position: center top;"></div>
+                <div class="fill" style="background-image:url('./img/carousel/Chi Phi.png'); background-position: center top;"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('<?php echo get_template_directory_uri(); ?>/img/carousel/SigEp Flag.png');"></div>
+                <div class="fill" style="background-image:url('./img/carousel/SigEp Flag.png');"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
@@ -163,7 +163,7 @@
                     <div class="panel-body">
                         <h3>WHAT WE DO</h3>
                         <br>
-                        <p>The Interfraternity Council (IFC) at Georgia Tech leads and directs the 32 member fraternities on campus. Each of the thirty-two chapters represented are members of the North-American Interfraternity Conference (NIC), an national governing body. The Interfraternity Council promotes the interests of fraternities in general, and insures cooperation among the different fraternities on campus.
+                        <p>The Interfraternity Council (IFC) at Georgia Tech leads and directs the 32 member fraternities on campus. Each of the thirty-two chapters represented are members of the North-American Interfraternity Conference (NIC), an national governing body. The Interfraternity Council promotes the interests of fraternities in general, and insures cooperation among the different fraternities on campus. 
                         <br>
                         <br>
                         <br>
@@ -182,7 +182,7 @@
                     <div class="panel-body">
                         <h3>MEET OUR EXEC</h3>
                         <br>
-                            <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/gt_ifc_example.png" style="height:auto; width:auto; margin:auto; display:block;">
+                            <img class="img-responsive" src="./img/gt_ifc_example.png" style="height:auto; width:auto; margin:auto; display:block;">
                         <br>
                         <a href="exec_board.html" class="btn btn-primary">Learn More!</a>
                         <br>
@@ -191,7 +191,7 @@
             </div>
         </div>
 
-
+        
         <br>
         <hr>
         <br>
@@ -219,7 +219,7 @@
             </div>
         </div>
 
-
+        
         <!-- Call to Action Section -->
         <div class="well">
             <div class="row">
@@ -248,7 +248,7 @@
                 </div>
             </div>
         </div>
-
+        
         <!-- Footer -->
         <footer >
             <div class="row" style="background:url(); background-repeat:no-repeat; background-position:center; padding:0px 0 70px 0; margin:0 0 0 0;">
@@ -278,7 +278,7 @@
     </script>
 
     <!-- script to control getting all of the relevant information from the WordPress site
-         on which the "blog" is stored
+         on which the "blog" is stored 
          NOTE: look into moving this back in to its own JS file...in fact look into moving
          all of this to a separate file -->
     <script>
@@ -292,7 +292,7 @@
  //        // the "await" is absolutely necessary or else you'll end up jumping over this code before the HTTP
  //        // request being made here finishes and you'll end up with an empty list of posts
  //        // NOTE: await tells the JavaScript in runtime to wait for this entire method to finish
-	// 	await jQuery.get( "http://public-api.wordpress.com/rest/v1/sites/seanmbills213.wordpress.com/posts/?http_envelope=true&amp;number=10", function( response ) {
+	// 	await jQuery.get( "http://public-api.wordpress.com/rest/v1/sites/seanmbills213.wordpress.com/posts/?http_envelope=true&amp;number=10", function( response ) { 
 	// 		// response contains site information
 	// 		var body = response['body'];
 	// 		var found = parseInt(body['found']);
@@ -364,11 +364,11 @@
         // update the contents of the blog div on the home page
             $("#blog").html(blogContent);
         }
-
+	
     </script>
 
 
-    <!-- script to control changing the colors of the navigation bar and whatnot at the
+    <!-- script to control changing the colors of the navigation bar and whatnot at the 
          top of the screen when the user scrolls past a certain point -->
     <script>
         $(window).on("scroll", function() {
@@ -410,19 +410,19 @@
 <script>
 
 
-    function equalHeight(group) {
-    var tallest = 0;
-    group.each(function() {
-        var thisHeight = $(this).height();
-        if(thisHeight > tallest) {
-            tallest = thisHeight;
-        }
-    });
+    function equalHeight(group) {    
+    var tallest = 0;    
+    group.each(function() {       
+        var thisHeight = $(this).height();       
+        if(thisHeight > tallest) {          
+            tallest = thisHeight;       
+        }    
+    });    
     group.each(function() { $(this).height(tallest); });
-}
+} 
 
-$(document).ready(function() {
-    equalHeight($(".panel-body"));
+$(document).ready(function() {   
+    equalHeight($(".panel-body")); 
     checkResize();
 });
 
@@ -511,8 +511,8 @@ $(document).ready(function() {
 
     function getHeights(group, windowWidth) {
         if (windowWidth >= 992) {
-            var tallest = 0;
-            group.each(function() {
+            var tallest = 0;    
+            group.each(function() {       
                 var totalHeight = 0;
                 //console.log($(this));
                 $(this).children().each(function(){
@@ -520,24 +520,24 @@ $(document).ready(function() {
                     totalHeight = totalHeight + $(this).outerHeight(true);
                 });
                 //console.log(totalHeight);
-                if(totalHeight > tallest) {
-                    tallest = totalHeight;
-                }
-            });
+                if(totalHeight > tallest) {          
+                    tallest = totalHeight;       
+                }    
+            });    
             group.each(function() { $(this).height(tallest); });
         } else {
-            group.each(function() {
+            group.each(function() {       
                 var totalHeight = 0;
                 //console.log($(this));
                 $(this).children().each(function(){
                     //console.log($(this));
                     totalHeight = totalHeight + $(this).outerHeight(true);
                 });
-                //console.log(totalHeight);
+                //console.log(totalHeight); 
                 $(this).height(totalHeight);
-            });
+            });    
         }
-
+        
     }
 </script>
 
