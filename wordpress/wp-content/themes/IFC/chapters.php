@@ -85,9 +85,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Zeta  <br>
                                             <strong>Chapter Nickname:</strong> AEPi     <br>
-                                            <strong>President's Name:</strong> Zach Getty  <br>
-                                            <strong>Contact Number:</strong> (404)313-7212‬   <br>
-                                            <strong>Contact Email:</strong> president@aepizeta.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('aepi_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('aepi_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('aepi_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -168,9 +168,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Tech  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Zach Hess  <br>
-                                            <strong>Contact Number:</strong> 717-823-3448   <br>
-                                            <strong>Contact Email:</strong> gtalphasigpresident@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('alphasig_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('alphasig_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('alphasig_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -260,10 +260,10 @@
                                         <p style="text-align:center;">
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Iota  <br>
-                                            <strong>Chapter Nickname:</strong> ATO     <br>
-                                            <strong>President's Name:</strong> Andrew Jacon  <br>
-                                            <strong>Contact Number:</strong> 404-861-9060   <br>
-                                            <strong>Contact Email:</strong> andrewjacon15@gmail.com  <br>
+                                            <strong>Chapter Nickname:</strong> ATO   <br>
+                                            <strong>President's Name:</strong> <?php the_field('ato_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('ato_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('ato_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -348,9 +348,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Eta  <br>
                                             <strong>Chapter Nickname:</strong> Beta     <br>
-                                            <strong>President's Name:</strong> Nick Sherrard  <br>
-                                            <strong>Contact Number:</strong> 440-799-2706  <br>
-                                            <strong>Contact Email:</strong> nick.sherrard@gtbeta.org  <br>
+                                            <strong>President's Name:</strong> <?php the_field('beta_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('beta_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('beta_email'); ?>‬ <br>
                                         </p>
 
 
@@ -440,9 +440,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Omega  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Domenick D'Amico  <br>
-                                            <strong>Contact Number:</strong> 412-999-4669   <br>
-                                            <strong>Contact Email:</strong> damicod2015@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('chiphi_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('chiphi_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('chiphi_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -527,9 +527,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Iota Delta  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Drew Teachout  <br>
-                                            <strong>Contact Number:</strong> 404-702-5238   <br>
-                                            <strong>Contact Email:</strong> gtchipsi.president@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('chipsi_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('chipsi_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('chipsi_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -609,9 +609,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Tech  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> James Youhne  <br>
-                                            <strong>Contact Number:</strong> 678-939-1101   <br>
-                                            <strong>Contact Email:</strong> jamesyouhnegatech@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('deltachi_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('deltachi_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('deltachi_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -690,9 +690,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Gamma  <br>
                                             <strong>Chapter Nickname:</strong> Delta Sig     <br>
-                                            <strong>President's Name:</strong> Kyle Zeitler  <br>
-                                            <strong>Contact Number:</strong> 609-489-9609   <br>
-                                            <strong>Contact Email:</strong> kzite29@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('deltasig_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('deltasig_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('deltasig_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -778,9 +778,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Psi  <br>
                                             <strong>Chapter Nickname:</strong> Delt     <br>
-                                            <strong>President's Name:</strong> Godwin Chan  <br>
-                                            <strong>Contact Number:</strong> 404-655-2747   <br>
-                                            <strong>Contact Email:</strong> president.gtdelt@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('dtd_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('dtd_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('dtd_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -865,9 +865,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Tech  <br>
                                             <strong>Chapter Nickname:</strong> DU     <br>
-                                            <strong>President's Name:</strong> Hal Jarrett  <br>
-                                            <strong>Contact Number:</strong> 678-773-4859   <br>
-                                            <strong>Contact Email:</strong> haljarrett@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('du_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('du_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('du_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -948,9 +948,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Sigma  <br>
                                             <strong>Chapter Nickname:</strong> KA     <br>
-                                            <strong>President's Name:</strong> Richie McClure  <br>
-                                            <strong>Contact Number:</strong> 404-988-7790   <br>
-                                            <strong>Contact Email:</strong> mcclurerichie@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('ka_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('ka_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('ka_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1026,9 +1026,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Tau  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Will Scott  <br>
-                                            <strong>Contact Number:</strong> 912-506-3513   <br>
-                                            <strong>Contact Email:</strong> wwscottiii@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('kappasig_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('kappasig_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('kappasig_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1117,9 +1117,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Kappa  <br>
                                             <strong>Chapter Nickname:</strong> Lambda Chi     <br>
-                                            <strong>President's Name:</strong> David Stroer  <br>
-                                            <strong>Contact Number:</strong> 770-617-0851   <br>
-                                            <strong>Contact Email:</strong> davidstroer@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('lambdachi_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('lambdachi_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('lambdachi_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1200,9 +1200,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Delta  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> John Giordano  <br>
-                                            <strong>Contact Number:</strong> 202-258-0550   <br>
-                                            <strong>Contact Email:</strong> johnfg1@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('phidelt_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('phidelt_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('phidelt_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1283,9 +1283,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Tau  <br>
                                             <strong>Chapter Nickname:</strong> FIJI     <br>
-                                            <strong>President's Name:</strong> Robert "Noah" Perry  <br>
-                                            <strong>Contact Number:</strong> 425-736-0238   <br>
-                                            <strong>Contact Email:</strong> rnperry32@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('fiji_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('fiji_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('fiji_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1363,9 +1363,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Beta  <br>
                                             <strong>Chapter Nickname:</strong> Phi Psi     <br>
-                                            <strong>President's Name:</strong> Johngseong "Ryan" Lee  <br>
-                                            <strong>Contact Number:</strong> 678-764-5581   <br>
-                                            <strong>Contact Email:</strong> ryan.jslee@hotmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('phipsi_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('phipsi_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('phipsi_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1453,9 +1453,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Nu  <br>
                                             <strong>Chapter Nickname:</strong> Skull House     <br>
-                                            <strong>President's Name:</strong> Eddie Cochell  <br>
-                                            <strong>Contact Number:</strong> 704-641-5509   <br>
-                                            <strong>Contact Email:</strong> alpha@gtskulls.org  <br>
+                                            <strong>President's Name:</strong> <?php the_field('skullhouse_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('skullhouse_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('skullhouse_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1534,7 +1534,7 @@
                                             The Serious Fun Children’s Network was created by actor, racecar driver, brother of Phi Kappa Tau Paul Newman (Ohio ’43) in 1988. This series of summer camps were designed for children facing life threatening illnesses to be able to escape the fear and isola on
                                             of their medical condi ons and, in his words “raise a li le hell.” From humble beginnings in Ashford, Connec cut the Network has grown to 29 camps worldwide serving more than 1,000,000<br>
                                             <strong>About our Brotherhood</strong><br>
-                                            Establishing itself this fall, Phi Kappa Tau is the latest addi on to the Georgia Tech Fraternity community.
+                                            Establishing itself this fall, Phi Kappa Tau is the latest addition to the Georgia Tech Fraternity community.
                                             With Phi Kappa Tau being new to this campus the opportunity presents itself to create a unique iden ty for this brotherhood. Academics, leadership, and service are our ‘what’ and the how is up to you. Using diversity and transparency as the primary tools we are looking to build a fraternity that will create a tradi on of excellence on this campus for many years to come. With the help of over 1,000 area alumni and hundreds of undergraduates at nearby universi es this colony will quickly become one of our top groups in the na on.
                                             All we need now is you.
                                         </p>
@@ -1545,9 +1545,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Rho Colony  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Darryl Thompson  <br>
-                                            <!-- <strong>Contact Number:</strong> 717-823-3448   <br> -->
-                                            <strong>Contact Email:</strong> dthompson@phikappatau.org  <br>
+                                            <strong>President's Name:</strong> <?php the_field('phitau_president_name'); ?> <br>
+                                            <!-- <strong>Contact Number:</strong> <?php the_field('phitau_phone_number'); ?>‬ <br> -->
+                                            <strong>Contact Email:</strong> <?php the_field('phitau_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1630,9 +1630,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Tau  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Bradley Argaur  <br>
-                                            <!-- <strong>Contact Number:</strong> 717-823-3448   <br> -->
-                                            <strong>Contact Email:</strong> president@gtpkt.org  <br>
+                                            <strong>President's Name:</strong> <?php the_field('pkt_president_name'); ?> <br>
+                                            <!-- <strong>Contact Number:</strong> <?php the_field('pkt_phone_number'); ?>‬ <br> -->
+                                            <strong>Contact Email:</strong> <?php the_field('pkt_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1713,9 +1713,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Kappa Deuteron  <br>
                                             <strong>Chapter Nickname:</strong> Phi Sig     <br>
-                                            <strong>President's Name:</strong> Preben Are  <br>
-                                            <strong>Contact Number:</strong> 770-689-9549   <br>
-                                            <strong>Contact Email:</strong> psk.kd.are@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('phisig_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('phisig_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('phisig_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1813,9 +1813,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Delta  <br>
                                             <strong>Chapter Nickname:</strong> Pike     <br>
-                                            <strong>President's Name:</strong> Brandon Selman  <br>
-                                            <strong>Contact Number:</strong> 717-404-7538   <br>
-                                            <strong>Contact Email:</strong> brandonselman03@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('pike_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('pike_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('pike_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1899,9 +1899,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Iota  <br>
                                             <strong>Chapter Nickname:</strong> Pi Kapp     <br>
-                                            <strong>President's Name:</strong> Vishnu Rajendran  <br>
-                                            <strong>Contact Number:</strong> 630-362-4266   <br>
-                                            <strong>Contact Email:</strong> vishnu.rajendran@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('pikapp_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('pikapp_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('pikapp_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -1985,9 +1985,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Tau  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Caitlin Bowles  <br>
-                                            <strong>Contact Number:</strong> 706-594-6949   <br>
-                                            <strong>Contact Email:</strong> caitlinbowles31@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('psiupsilon_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('psiupsilon_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('psiupsilon_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -2068,9 +2068,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Phi  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Thomas Jahde  <br>
-                                            <strong>Contact Number:</strong> 303-818-8053   <br>
-                                            <strong>Contact Email:</strong> gtsaepresident@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('sae_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('sae_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('sae_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -2156,9 +2156,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Psi  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Hunter Podlin  <br>
-                                            <strong>Contact Number:</strong> 912-230-4435   <br>
-                                            <strong>Contact Email:</strong> hunterhpodlin@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('sigmachi_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('sigmachi_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('sigmachi_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -2236,9 +2236,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Gamma Alpha  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> James Blyth  <br>
-                                            <strong>Contact Number:</strong> 404-909-7756   <br>
-                                            <strong>Contact Email:</strong> president@gtsigmanu.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('sigmanu_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('sigmanu_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('sigmanu_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -2321,9 +2321,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Alpha  <br>
                                             <strong>Chapter Nickname:</strong> Sig Ep     <br>
-                                            <strong>President's Name:</strong> Pearson Van Horn  <br>
-                                            <strong>Contact Number:</strong> 706-951-3221   <br>
-                                            <strong>Contact Email:</strong> gtpearson1@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('sigep_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('sigep_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('sigep_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -2405,9 +2405,9 @@
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Pi  <br>
                                             <strong>Chapter Nickname:</strong> TKE     <br>
-                                            <strong>President's Name:</strong> Rishi Patel  <br>
-                                            <strong>Contact Number:</strong> 912-547-9452   <br>
-                                            <strong>Contact Email:</strong> rishippatel21@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('tke_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('tke_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('tke_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -2491,9 +2491,9 @@ Since its founding in 1856, Theta Chi Fraternity has grown to more than 219 chap
                                             <br>
                                             <strong>Chapter Designation:</strong> Alpha Nu  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Aarij Abbas  <br>
-                                            <strong>Contact Number:</strong> 404-985-1263   <br>
-                                            <strong>Contact Email:</strong> president@gtthetachi.org  <br>
+                                            <strong>President's Name:</strong> <?php the_field('thetachi_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('thetachi_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('thetachi_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -2571,9 +2571,9 @@ The Beta Alpha Chapter of the Theta Xi Fraternity is a brotherhood of Christian 
                                             <br>
                                             <strong>Chapter Designation:</strong> Beta Alpha  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Pierce Heintzelman  <br>
-                                            <strong>Contact Number:</strong> 210-701-5282   <br>
-                                            <strong>Contact Email:</strong> president@gttx.org  <br>
+                                            <strong>President's Name:</strong> <?php the_field('thetaxi_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('thetaxi_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('thetaxi_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -2653,9 +2653,9 @@ All Triangle Fraternity brothers strive to be leaders in the campus, local commu
                                             <br>
                                             <strong>Chapter Designation:</strong> Georgia Tech  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
-                                            <strong>President's Name:</strong> Sidharth Parwani  <br>
-                                            <strong>Contact Number:</strong> 340-201-4212   <br>
-                                            <strong>Contact Email:</strong> gttriangle.president@gmail.com  <br>
+                                            <strong>President's Name:</strong> <?php the_field('triangle_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('triangle_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('triangle_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
@@ -2730,9 +2730,9 @@ Zeta Beta Tau Xi chapter is an eclectic set of highly motivated individuals unif
                                             <br>
                                             <strong>Chapter Designation:</strong> Xi  <br>
                                             <strong>Chapter Nickname:</strong> Zeta Beta Tau     <br>
-                                            <strong>President's Name:</strong> Justin Richard  <br>
-                                            <strong>Contact Number:</strong> (845) 522-1562   <br>
-                                            <strong>Alternate Contact:</strong> 912-674-3505  <br>
+                                            <strong>President's Name:</strong> <?php the_field('zbt_president_name'); ?> <br>
+                                            <strong>Contact Number:</strong> <?php the_field('zbt_phone_number'); ?>‬ <br>
+                                            <strong>Contact Email:</strong> <?php the_field('zbt_email'); ?>‬ <br>
                                         </p>
 
                                         <br>
