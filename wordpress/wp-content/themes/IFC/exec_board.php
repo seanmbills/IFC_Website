@@ -21,7 +21,7 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('president_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-215-906-3544"><?php the_field('president_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('president_phone'); ?>"><?php the_field('president_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:president@ifc.greek.gatech.edu">president@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('evp_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-488-3029"><?php the_field('evp_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('evp_phone'); ?>"><?php the_field('evp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:executivevp@ifc.greek.gatech.edu">executivevp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('avp_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-877-2111"><?php the_field('avp_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('avp_phone'); ?>"><?php the_field('avp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:adminvp@ifc.greek.gatech.edu">adminvp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('pvp_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-641-3325"><?php the_field('pvp_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('pvp_phone'); ?>"><?php the_field('pvp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:programmingvp@ifc.greek.gatech.edu">programmingvp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('rvp_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-484-683-1216"><?php the_field('rvp_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('rvp_phone'); ?>"><?php the_field('rvp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:recruitmentvp@ifc.greek.gatech.edu">recruitmentvp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('fvp_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-525-7999"><?php the_field('fvp_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('fvp_phone'); ?>"><?php the_field('fvp_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:financevp@ifc.greek.gatech.edu">financevp@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('cvp_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-754-8648"><?php the_field('cvp_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('cvp_phone'); ?>"><?php the_field('cvp_phone'); ?></a></p>
                             <!-- <br> -->
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:communicationsvp@ifc.greek.gatech.edu">communicationsvp@ifc.greek.gatech.edu</a></p>
                             <!-- <br> -->
@@ -120,7 +120,7 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('rush_chairman_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-315-1281"><?php the_field('rush_chairman_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('rush_chairman_phone'); ?>"><?php the_field('rush_chairman_phone'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:rush@ifc.greek.gatech.edu">rush@ifc.greek.gatech.edu</a></p>
                         </div>
                     </div>

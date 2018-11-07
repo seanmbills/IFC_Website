@@ -21,8 +21,8 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('finance_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><?php the_field('finance_phone'); ?></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:mliguori15@gmail.com"><?php the_field('finance_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('finance_phone'); ?>"><?php the_field('finance_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('finance_email'); ?>"><?php the_field('finance_email'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('finance_greek'); ?></p>
                         </div>
                     </div>
@@ -34,8 +34,8 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('ge_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-770-295-8103"><?php the_field('ge_phone'); ?></a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:coreywhitlock07@gmail.com"><?php the_field('ge_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('ge_phone'); ?>"><?php the_field('ge_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('ge_email'); ?>"><?php the_field('ge_email'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('ge_greek'); ?></p>
                         </div>
                     </div>
@@ -47,8 +47,8 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('gna_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-646-409-1829"><?php the_field('gna_phone'); ?></a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:cahillj16@gmail.com"><?php the_field('gna_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('gna_phone'); ?>"><?php the_field('gna_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('gna_email'); ?>"><?php the_field('gna_email'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('gna_greek'); ?></p>
                         </div>
                     </div>
@@ -65,8 +65,8 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('philanthropy_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-617-2587"><?php the_field('philanthropy_phone'); ?></a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:cclewis9813@gmail.com"><?php the_field('philanthropy_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('philanthropy_phone'); ?>"><?php the_field('philanthropy_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('philanthropy_email'); ?>"><?php the_field('philanthropy_email'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('philanthropy_greek'); ?></p>
                         </div>
                     </div>
@@ -78,8 +78,8 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('programming_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-817-781-3755"><?php the_field('programming_phone'); ?></a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:anya.kohnke@gmail.com"><?php the_field('programming_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('programming_phone'); ?>"><?php the_field('programming_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('programming_email'); ?>"><?php the_field('programming_email'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('programming_greek'); ?></p>
                         </div>
                     </div>
@@ -91,8 +91,8 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('pr_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-770-654-1521"><?php the_field('pr_phone'); ?></a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:thomasalexander@gatech.edu"><?php the_field('pr_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('pr_phone'); ?>"><?php the_field('pr_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('pr_email'); ?>"><?php the_field('pr_email'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('pr_greek'); ?></p>
                         </div>
                     </div>
@@ -109,9 +109,9 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('scholarship_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-470-809-3950"><?php the_field('scholarship_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('scholarship_phone'); ?>"><?php the_field('scholarship_phone'); ?></a></p>
                             <!-- <br> -->
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:dking72@gatech.edu"><?php the_field('scholarship_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('scholarship_email'); ?>"><?php the_field('scholarship_email'); ?></a></p>
                             <!-- <br> -->
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('scholarship_greek'); ?></p>
                         </div>
@@ -124,8 +124,8 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('social_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-576-0999"><?php the_field('social_phone'); ?></a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:happ.erik@gatech.edu"><?php the_field('social_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('social_phone'); ?>"><?php the_field('social_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('social_email'); ?>"><?php the_field('social_email'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('social_greek'); ?></p>
                         </div>
                     </div>
@@ -137,8 +137,8 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('technology_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-268-7272"><?php the_field('technology_phone'); ?></a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:nicholas.joaquin@gatech.edu"><?php the_field('technology_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('technology_phone'); ?>"><?php the_field('technology_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('technology_email'); ?>"><?php the_field('technology_email'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('technology_greek'); ?></p>
                         </div>
                     </div>
@@ -159,8 +159,8 @@
                     <div class="exec-transition">
                         <div class="exec-info-text">
                             <h3><?php the_field('gw_name'); ?></h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-770-296-5103"><?php the_field('gw_phone'); ?></a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:gtgreekweek18@gmail.com"><?php the_field('gw_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('gw_phone'); ?>"><?php the_field('gw_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('gw_email'); ?>"><?php the_field('gw_email'); ?></a></p>
                             <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('gw_greek'); ?></p>
                         </div>
                     </div>
