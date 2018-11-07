@@ -20,10 +20,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/FinanceChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Max Liguori</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong>N/A</p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:mliguori15@gmail.com">mliguori15@gmail.com</a></p>
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Alpha Tau Omega</p>
+                            <h3><?php the_field('finance_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('finance_phone'); ?>"><?php the_field('finance_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('finance_email'); ?>"><?php the_field('finance_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('finance_greek'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -33,10 +33,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/GreekExcellenceChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Corey Whitlock</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-770-295-8103">770-295-8103</a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:coreywhitlock07@gmail.com">coreywhitlock07@gmail.com</a></p>
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Phi Gamma Delta</p>
+                            <h3><?php the_field('ge_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('ge_phone'); ?>"><?php the_field('ge_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('ge_email'); ?>"><?php the_field('ge_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('ge_greek'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -46,10 +46,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/GNAChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>James Cahill</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-646-409-1829">646-409-1829</a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:cahillj16@gmail.com">cahillj16@gmail.com</a></p>
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Zeta Beta Tau</p>
+                            <h3><?php the_field('gna_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('gna_phone'); ?>"><?php the_field('gna_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('gna_email'); ?>"><?php the_field('gna_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('gna_greek'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -64,10 +64,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/PhilanthropyChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Christopher Lewis</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-617-2587">678-617-2587</a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:cclewis9813@gmail.com">cclewis9813@gmail.com</a></p>
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Sigma Alpha Epsilon</p>
+                            <h3><?php the_field('philanthropy_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('philanthropy_phone'); ?>"><?php the_field('philanthropy_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('philanthropy_email'); ?>"><?php the_field('philanthropy_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('philanthropy_greek'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -77,10 +77,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/ProgrammingChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Anya Kohnke</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-817-781-3755">817-781-3755</a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:anya.kohnke@gmail.com">anya.kohnke@gmail.com</a></p>
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Psi Upsilon</p>
+                            <h3><?php the_field('programming_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('programming_phone'); ?>"><?php the_field('programming_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('programming_email'); ?>"><?php the_field('programming_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('programming_greek'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -90,10 +90,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/PRChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Thomas Alexander</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-770-654-1521">770-654-1521</a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:thomasalexander@gatech.edu">thomasalexander@gatech.edu</a></p>
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Kappa Alpha Order</p>
+                            <h3><?php the_field('pr_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('pr_phone'); ?>"><?php the_field('pr_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('pr_email'); ?>"><?php the_field('pr_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('pr_greek'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -108,12 +108,12 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/ScholarshipChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>David King</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-470-809-3950">470-809-3950</a></p>
+                            <h3><?php the_field('scholarship_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('scholarship_phone'); ?>"><?php the_field('scholarship_phone'); ?></a></p>
                             <!-- <br> -->
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:dking72@gatech.edu">dking72@gatech.edu</a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('scholarship_email'); ?>"><?php the_field('scholarship_email'); ?></a></p>
                             <!-- <br> -->
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Theta Xi</p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('scholarship_greek'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -123,10 +123,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/SocialChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Erik Happ</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-678-576-0999">678-576-0999</a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:happ.erik@gatech.edu">happ.erik@gatech.edu</a></p>
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Alpha Tau Omega</p>
+                            <h3><?php the_field('social_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('social_phone'); ?>"><?php the_field('social_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('social_email'); ?>"><?php the_field('social_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('social_greek'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -136,10 +136,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/TechChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto; margin-bottom:5px;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Nick Joaquin</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-404-268-7272">404-268-7272</a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:nicholas.joaquin@gatech.edu">nicholas.joaquin@gatech.edu</a></p>
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Kappa Sigma</p>
+                            <h3><?php the_field('technology_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('technology_phone'); ?>"><?php the_field('technology_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('technology_email'); ?>"><?php the_field('technology_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('technology_greek'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -158,10 +158,10 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Chairmen Pictures/GreekWeekChair.jpg" class="thumbnail img-responsive exec-photo" style="margin:auto;">
                     <div class="exec-transition">
                         <div class="exec-info-text">
-                            <h3>Joseph Stamm</h3>
-                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:1-770-296-5103">770-296-5103</a></p>
-                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:gtgreekweek18@gmail.com">gtgreekweek18@gmail.com</a></p>
-                            <p style="font-size:18px!important;"><strong>Organization: </strong>Phi Sigma Kappa</p>
+                            <h3><?php the_field('gw_name'); ?></h3>
+                            <p style="font-size:18px!important;"><strong>Phone: </strong><a href="tel:<?php the_field('gw_phone'); ?>"><?php the_field('gw_phone'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Email: </strong><a href="mailto:<?php the_field('gw_email'); ?>"><?php the_field('gw_email'); ?></a></p>
+                            <p style="font-size:18px!important;"><strong>Organization: </strong><?php the_field('gw_greek'); ?></p>
                         </div>
                     </div>
                 </div>
