@@ -5,7 +5,7 @@
 
     <!-- Page Content -->
     <div class="container" z-index:2000 style="margin-top:50px;">
-        
+
         <div class="row">
             <div class="col-lg-12" style="text-align:center;">
                 <h1>FAQ</h1>
@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="panel-group" id="accordion">
-                    
+
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h2 class="panel-title" style="text-align:center;">
@@ -30,8 +30,7 @@
                                     <div class="col-lg-12">
                                             <div class="caption">
                                                 <p>
-                                                    Georgia Tech's IFC is composed of 32 Fraternities having a total of 2,059 men, 23% of the undergrad men on campus. <br>
-                                                    The all Fraternity GPA is 3.05 and 23.4% of Tech is Greek compared to the 9% national average.
+                                                    <?php the_field('ifc_statistics'); ?>
                                                 </p>
                                             </div>
                                     </div>
