@@ -2456,7 +2456,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src=".<?php echo get_template_directory_uri(); ?>img/Houses/ThetaChi1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/ThetaChi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -2778,13 +2778,7 @@ Zeta Beta Tau Xi chapter is an eclectic set of highly motivated individuals unif
         <br>
 <?php get_footer(); ?>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    // $('.carousel').carousel({
-    //     interval: 10000 //changes the speed
-    // })
-    </script>
-
+    
     <script>
         $(window).on("load", function() {
             if($(window).scrollTop() >= 0) {
