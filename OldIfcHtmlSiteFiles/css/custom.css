@@ -1,0 +1,14 @@
+.navbar-inverse {
+	background-image: url('background.png') !important;
+	min-height: 90px !important;
+}
+
+.navbar-fixed-top {
+	background-image: url('background.png') !important;
+	min-height: 90px !important;
+}
+
+.navbar navbar-inverse navbar-fixed-top {
+	background-image: url('background.png') !important;
+	min-height: 210px;
+}
