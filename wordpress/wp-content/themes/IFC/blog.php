@@ -104,16 +104,7 @@
                 </div>
             </div>
         </div>
-                <!-- // // print out the outer modal container
-                // echo "<div class='modal fade post" . $count . "Modal' tabindex='-1' role='dialog' aria-labelledby='myLargeModalLabel' aria-hidden='true'>";
-                // // print the inner modal dialog container
-                // echo "<div class='modal-dialog modal-lg'>";
-                // // echo "<"
-
-                // //close inner modal dialog
-                // echo "</div>";
-                // // close outer modal container
-                // echo "</div>"; -->
+                
         <?php $count++; ?>
         <?php endwhile; endif; ?>
 
@@ -125,117 +116,6 @@
 
         <?php get_footer(); ?>
     
-
-    <!-- script to control getting all of the relevant information from the WordPress site
-         on which the "blog" is stored 
-         NOTE: look into moving this back in to its own JS file...in fact look into moving
-         all of this to a separate file -->
-    <script>
-    
-        // console.log("made it here...");
-        // $(window).on("load", getWordPress());
-
-        // async function getWordPress() {
-        //     var titles = [];
-        // var contents = [];
-        // var dates = [];
-        // var excerpts = [];
-
-        //     await $.ajax({
-        //         type:'GET',
-        //         dataType:"jsonp",
-        //         url:"http://public-api.wordpress.com/rest/v1.1/sites/ifcgatech.wordpress.com/posts/?http_envelope=true&amp;number=10",
-
-        //         success: function(result) {
-        //             console.log(result);
-        //             var body = result['body'];
-        //             var found = parseInt(body['found']);
-        //             posts = body['posts'];
-        //             console.log(posts);
-        //             console.log(posts);
-        //             var i;
-        //             for (i = 0; i < found; i++) {
-        //                 post = posts[i];
-        //                 //console.log(post);
-        //                 titles.push(post['title']);
-        //                 contents.push(post['content']);
-        //                 excerpts.push(post['excerpt']);
-        //                 var date = new Date(post['date']);
-        //                 var newDate = date.toString('dd-MM-yy');
-        //                 dates.push(newDate);
-        //             }
-
-        //         }
-        //     });
-        //     var blogContent = "";
-        //     for (var i = 0; i < titles.length; i++) {
-        //         blogContent += '<div class="post' + i + '">';
-        //         blogContent += "<h3><strong>" + titles[i] + "</strong></h3><br><h5>";
-        //         blogContent += excerpts[i];
-        //         blogContent += "<a onclick=" + "$('.post" + i + "Modal').modal('show');" + ">Show more...</a><br>";
-        //         blogContent += "<br>Posted On: " + dates[i] + "<br><hr><br>";
-        //         blogContent == '</h5>';
-        //         blogContent += "</div>";
-        //         $(".post" + i + "Contents").html("<br><h3 style='text-align:center;'>" + titles[i] + "</h3><hr><h5>" + contents[i] + "<br><br>"
-        //             + dates[i] + "</h5>");
-        //     }
-        //     // update the contents of the blog div on the home page
-        //     $("#blog").html(blogContent);
-        // }
-
-
-    // $(window).on("load", async function() {
-    //     // lists to keep track of various information from blog posts
-    //     var titles = [];
-    //     var contents = [];
-    //     var dates = [];
-    //     var excerpts = [];
-
-    //     // this is the most important part of the function as it gets the actual content from the WordPress site
-    //     // the "await" is absolutely necessary or else you'll end up jumping over this code before the HTTP
-    //     // request being made here finishes and you'll end up with an empty list of posts
-    //     // NOTE: await tells the JavaScript in runtime to wait for this entire method to finish
-    //     await jQuery.get( "http://public-api.wordpress.com/rest/v1.1/sites/seanmbills213.wordpress.com/posts/?http_envelope=true&amp;number=10", function( response ) { 
-    //         // response contains site information
-    //         var body = response['body'];
-    //         var found = parseInt(body['found']);
-    //         posts = body['posts'];
-    //         console.log(posts);
-
-    //         // iterate over all posts returned and add their title, contents, and dates created to the
-    //         // respective lists above
-    //         var i;
-    //         for (i = 0; i < found; i++) {
-    //             post = posts[i];
-    //             //console.log(post);
-    //             titles.push(post['title']);
-    //             contents.push(post['content']);
-    //             excerpts.push(post['excerpt']);
-    //             var date = new Date(post['date']);
-    //             var newDate = date.toString('dd-MM-yy');
-    //             dates.push(newDate);
-    //         }
-    //     });
-    //     // set up the content for the blog div itself here
-    //     // NOTE: need to come back and make each post into its own div with a popup functionality possible?
-    //     var blogContent = "";
-    //     for (var i = 0; i < titles.length; i++) {
-    //         blogContent += '<div class="post' + i + '">';
-    //         blogContent += "<h3><strong>" + titles[i] + "</strong></h3><br><h5>";
-    //         blogContent += excerpts[i];
-    //         blogContent += "<a onclick=" + "$('.post" + i + "Modal').modal('show');" + ">Show more...</a><br>";
-    //         blogContent += "<br>Posted On: " + dates[i] + "<br><hr><br>";
-    //         blogContent == '</h5>';
-    //         blogContent += "</div>";
-    //         $(".post" + i + "Contents").html("<br><h3 style='text-align:center;'>" + titles[i] + "</h3><hr><h5>" + contents[i] + "<br><br>"
-    //             + dates[i] + "</h5>");
-    //     }
-    //     // update the contents of the blog div on the home page
-    //     $("#blog").html(blogContent);
-    // });
-    
-    </script>
-
     <script>
 $('.modal').on('shown.bs.modal', function (e) {
   // do something...

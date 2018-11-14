@@ -12,32 +12,7 @@
             </div>
         </div>
 
-        <hr>
-
-        <div class="row">
-            <div class="col-lg-12">
-                <iframe src="https://calendar.google.com/calendar/embed?src=aWZjLmdyZWVrLmdhdGVjaC5lZHVfbzEwaGd1NnVzZGRybDJwazE3ZmUyYmZ1aDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" style="border: 0" width="100%" height="750" frameborder="0" scrolling="no"></iframe>
-            </div>
-        </div>
-
-        <hr>
-
-        <br>
-
-        <div class="well">
-            <div class="row">
-                <div class="col-md-8">
-                    <p style="color:#263975; text-align:center">Questions? Comments? Concerns? Please feel free to contact our IFC President, Jack Corelli, as well as our Georgia Tech Greek Affairs Director, Jamison Keller, by clicking the "Contact Us" button!</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-default btn-block contact-us-button" href="mailto:jamison.keller@studentlife.gatech.edu,president@ifc.greek.gatech.edu"  style="color:#FF2400; background-color:white;">CONTACT US</a>
-                </div>
-            </div>
-        </div>
-
-        <br>
-        <br>
-        <br>
+        
 
 <?php get_footer(); ?>
 

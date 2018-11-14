@@ -372,10 +372,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="modal-footer">
-                                <button type="button" class="btn btn-default" id="btnclose" data-dismiss="modal">X</button>
+                            <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" id="btnclose" data-dismiss="modal">X</button>
                             </div>
+                        </div>
                     </div>
                 </div>
                 <!-- last member of row -->
@@ -1546,7 +1546,7 @@
                                             <strong>Chapter Designation:</strong> Alpha Rho Colony  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
                                             <strong>President's Name:</strong> <?php the_field('phitau_president_name'); ?> <br>
-                                            <!-- <strong>Contact Number:</strong> <?php the_field('phitau_phone_number'); ?>‬ <br> -->
+                                            <strong>Contact Number:</strong> <?php the_field('phitau_phone_number'); ?>‬ <br>
                                             <strong>Contact Email:</strong> <?php the_field('phitau_email'); ?>‬ <br>
                                         </p>
 
@@ -1631,7 +1631,7 @@
                                             <strong>Chapter Designation:</strong> Gamma Tau  <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
                                             <strong>President's Name:</strong> <?php the_field('pkt_president_name'); ?> <br>
-                                            <!-- <strong>Contact Number:</strong> <?php the_field('pkt_phone_number'); ?>‬ <br> -->
+                                            <strong>Contact Number:</strong> <?php the_field('pkt_phone_number'); ?>‬ <br>
                                             <strong>Contact Email:</strong> <?php the_field('pkt_email'); ?>‬ <br>
                                         </p>
 
@@ -2456,7 +2456,7 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img class="img-responsive"  src=".<?php echo get_template_directory_uri(); ?>img/Houses/ThetaChi1.jpg" alt="...">
+                                        <img class="img-responsive"  src="<?php echo get_template_directory_uri(); ?>/img/Houses/ThetaChi1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             <!-- no carousel caption here yet... -->
                                         </div>
@@ -2778,13 +2778,7 @@ Zeta Beta Tau Xi chapter is an eclectic set of highly motivated individuals unif
         <br>
 <?php get_footer(); ?>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    // $('.carousel').carousel({
-    //     interval: 10000 //changes the speed
-    // })
-    </script>
-
+    
     <script>
         $(window).on("load", function() {
             if($(window).scrollTop() >= 0) {

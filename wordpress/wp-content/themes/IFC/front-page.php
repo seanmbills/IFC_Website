@@ -18,29 +18,25 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <?php $carousel1 = get_field('carousel_photo_1'); ?>
-                <div class="fill" style="background-image:url('<?php echo $carousel1['url']; ?>'); background-position:center bottom;"></div>
+                <div class="fill" style="background-image:url('<?php the_field('carousel_photo_1'); ?>'); background-position:center bottom;"></div>
                 <div class="carousel-caption">
                     <h1 style="text-shadow:black 0px 0px 10px;">Georgia Tech IFC</h1>
                 </div>
             </div>
             <div class="item">
-                <?php $carousel2 = get_field('carousel_photo_2'); ?>
-                <div class="fill" style="background-image:url('<?php echo $carousel2['url']; ?>'); background-position:center center;"></div>
+                <div class="fill" style="background-image:url('<?php the_field('carousel_photo_2'); ?>'); background-position:center center;"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
             </div>
             <div class="item">
-                <?php $carousel3 = get_field('carousel_photo_3'); ?>
-                <div class="fill" style="background-image:url('<?php echo $carousel3['url']; ?>'); background-position: center top;"></div>
+                <div class="fill" style="background-image:url('<?php the_field('carousel_photo_3'); ?>'); background-position: center top;"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
             </div>
             <div class="item">
-                <?php $carousel4 = get_field('carousel_photo_4'); ?>
-                <div class="fill" style="background-image:url('<?php echo $carousel4['url']; ?>');"></div>
+                <div class="fill" style="background-image:url('<?php the_field('carousel_photo_4'); ?>');"></div>
                 <div class="carousel-caption">
                     <h2 style="text-shadow:black 0px 0px 10px;"></h2>
                 </div>
@@ -85,8 +81,7 @@
                     <div class="panel-body">
                         <h3>MEET OUR EXEC</h3>
                         <br>
-                            <?php $exec = get_field('exec_photo'); ?>
-                            <img class="img-responsive" src="<?php echo $exec['url']; ?>" style="height:auto; width:auto; margin:auto; display:block;">
+                            <img class="img-responsive" src="<?php the_field('exec_photo'); ?>" style="height:auto; width:auto; margin:auto; display:block;">
                         <br>
                         <a href="exec_board.html" class="btn btn-primary">Learn More!</a>
                         <br>
@@ -104,25 +99,21 @@
             <div class="col-md-7 panel panel-default" style="height:1010px;">
                 <h2 class="page-header" style="color:#FF2400">Latest News</h2>
                 <div id="blog" style="height:884px; margin-bottom:20px; overflow-y:scroll!important;">
-                    <?php if(have_posts()):
-                            while(have_posts()):
-                                the_post();
-                    ?>
-                    <p>
-                        <strong>
-                            <?php
-                                the_title();
-                            ?>
-                        </strong>
-                        <br>
-                        <?php the_content(); ?>
-                        <br>
-                        Posted On: <?php echo get_the_date(); ?>
-                        <br>
-                        <hr>
+                    <?php
+                        // $args = array( 'numberposts' => '10' );
+                        // $recent_posts = new WP_Query( $args );
 
-                    </p>
-                <?php endwhile; endif; ?>
+                        // foreach( $recent_posts as $recent ){
+                        //     echo '<p><strong>' . $recent["post_title"] . '</strong><br>' . $recent["post_content"] . "<br>Posted On: " . $recent['post_date'] . '<br><hr></p>';
+                        // }
+                        $query = new WP_Query(array( 'orderby' => 'date', 'order' => 'DESC' ));
+                        while ($query->have_posts()):
+                            $query->the_post();
+                            echo '<p><strong>' . get_the_title() . '</strong><br><br>' . get_the_content() . '<br><br><i>Posted On: ' . get_the_date() . '</i><br><hr></p>';
+                        endwhile;
+                    ?>
+
+                    
                 </div>
             </div>
             <div class="col-md-5" style='height:1010px;'>
