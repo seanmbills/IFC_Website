@@ -99,25 +99,21 @@
             <div class="col-md-7 panel panel-default" style="height:1010px;">
                 <h2 class="page-header" style="color:#FF2400">Latest News</h2>
                 <div id="blog" style="height:884px; margin-bottom:20px; overflow-y:scroll!important;">
-                    <?php if(have_posts()):
-                            while(have_posts()):
-                                the_post();
-                    ?>
-                    <p>
-                        <strong>
-                            <?php
-                                the_title();
-                            ?>
-                        </strong>
-                        <br>
-                        <?php the_content(); ?>
-                        <br>
-                        Posted On: <?php echo get_the_date(); ?>
-                        <br>
-                        <hr>
+                    <?php
+                        // $args = array( 'numberposts' => '10' );
+                        // $recent_posts = new WP_Query( $args );
 
-                    </p>
-                <?php endwhile; endif; ?>
+                        // foreach( $recent_posts as $recent ){
+                        //     echo '<p><strong>' . $recent["post_title"] . '</strong><br>' . $recent["post_content"] . "<br>Posted On: " . $recent['post_date'] . '<br><hr></p>';
+                        // }
+                        $query = new WP_Query(array( 'orderby' => 'date', 'order' => 'DESC' ));
+                        while ($query->have_posts()):
+                            $query->the_post();
+                            echo '<p><strong>' . get_the_title() . '</strong><br><br>' . get_the_content() . '<br><br><i>Posted On: ' . get_the_date() . '</i><br><hr></p>';
+                        endwhile;
+                    ?>
+
+                    
                 </div>
             </div>
             <div class="col-md-5" style='height:1010px;'>
