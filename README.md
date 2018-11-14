@@ -1,7 +1,11 @@
-# IFC_Website
-Website Project MAMP/XAMPP Setup Instructions:
+# IFC Website
 
+
+
+##Initial Setup Required to Run Wordpress Installation locally:
+In order to be able to run Wordpress locally on your machine, you will need to download a server application. For MacOS X I would strongly recommend downloading MAMP (there's a free version along with the Pro version) and for Windows I would recommend XAMPP. I don't have any experience working with XAMPP as I've done most of of this development on Windows, but it's ultimately a similar process. Below are the general instructions to get started with this software. 
 1)	Download MAMP/XAMPP and get the corresponding one setup on your computer. 
+
 2)	For Mac OS, you’ll need to change directory into your global hard drive level Applications folder probably like the following:
 a.	cd /       (this will change into your global HD directory)
 b.	cd Applications
