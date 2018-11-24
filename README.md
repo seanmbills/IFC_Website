@@ -89,3 +89,17 @@ Also note: for images such as the executive board images and the committee chair
      - Is Equal To
      - <Name of page template corresponding to the page you're trying to add the field group to>
 3. Add all fields desired using the "Custom Fields within Wordpress Installation" instructions above.
+
+
+
+## Useful Tutorials/Links
+**XAMPP Setup Instructions:** https://premium.wpmudev.org/blog/setting-up-xampp/
+**Bootstrap to WP Theme YouTube Tutorials (Simple):** https://www.youtube.com/watch?v=OQY3dNHLt1I&list=PLy9vu-vJXycs8KaJyKBwsZG86nlmMD4_N
+**Bootstrap to WP Theme YouTube Tutorials (Advanced):** https://www.youtube.com/watch?v=wMP2GANWXBA&list=PLy9vu-vJXycsLC9u8gKY6lt3k3FQu1WzZ
+These two links above are the links we used as inspiration to take our previous HTML/CSS static site and convert to the new Wordpress/PHP site.
+
+
+## Contact Information:
+If you have any questions about how we created the site feel free to contact me here on GitHub or get in touch with my Georgia Tech email and I can help with this questions specific to this Georgia Tech Interfraternity Council site. 
+
+
