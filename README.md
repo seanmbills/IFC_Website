@@ -1,9 +1,6 @@
 # IFC Website
 
-
-
 ## Initial Setup Required to Run Wordpress Installation locally:
-
 ***Note: This portion of the instructions is only necessary if you wish to set up Wordpress locally on your machine for testing purposes. Most changes can probably be made directly within Wordpress online or within the code real quick and can easily be pushed up without having to be tested locally first.***
 
 In order to be able to run Wordpress locally on your machine, you will need to download a server application. For MacOS X I would strongly recommend downloading MAMP (there's a free version along with the Pro version). For Windows I would recommend also using the MAMP software, but you could also use XAMPP if desired. I don't have any experience working with XAMPP as I've done most of of this development on Mac OS in MAMP, but it's ultimately a similar process. Below are the general instructions to get started with this software. 
@@ -40,5 +37,14 @@ If you've made changes and wish to test them locally, make sure that you've firs
 7. Otherwise, login with your local login credentials and you can begin making/testing changes.
 
 ### Setting Up Local Database (only needed for first time setting up local Wordpress installation)
-*For XAMPP, refer to the "Setting Up Your MySQL Database" portion of the following webpage: https://premium.wpmudev.org/blog/setting-up-xampp/
-*For MAMP: go to the webpage that is automatically opened when you start your MAMP application. Click the "Tools" dropdown, then select "phpMyAdmin". From there, the setup instructions are similar to the XAMPP setup instructions.
+* For XAMPP, refer to the "Setting Up Your MySQL Database" portion of the following webpage: https://premium.wpmudev.org/blog/setting-up-xampp/
+* For MAMP: go to the webpage that is automatically opened when you start your MAMP application. Click the "Tools" dropdown, then select "phpMyAdmin". From there, the setup instructions are similar to the XAMPP setup instructions.
+
+
+## Adding Posts to Wordpress
+**Note: You can test these locally if you want, but I would recommend just doing these directly in the Georgia Tech installation and you can see the changes reflected immediately at fraternity.gatech.edu**
+In order to add a post to the "Blog" page or the front home page, within the Wordpress admin panel, simply navigate to the "Posts" link on the side and click "Add New". From there, provide a title and content for the post and click "Publish" on the right. If you refresh the fraternity.gatech.edu link, you should see the changes reflected immediately. Note that you can style (bold, italics, etc.) and add media (images, videos, etc) to Wordpress posts and these should properly display in the webpage when the posts are loaded.
+
+## Adding Pages to Wordpress
+Overall, I would recommend trying to avoid doing this unless you know what you're doing in regards to writing HTML/CSS/PHP pages and feel comfortable within Wordpress. Each of the pages displayed on the site currently are represented by a .php template file on the backend (stored within the "wp-content/themes/IFC/" directory in the GaTech file manager). These .php template files are then referenced from within the individual "Pages" in Wordpress. If you feel comfortable with PHP/HTML and Wordpress, you can easily write a new page, making sure to add the /** Template-name: _______ ** / tag to the top of the file, and then reference this within Wordpress.
+
