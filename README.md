@@ -94,8 +94,11 @@ Also note: for images such as the executive board images and the committee chair
 
 ## Useful Tutorials/Links
 **XAMPP Setup Instructions:** https://premium.wpmudev.org/blog/setting-up-xampp/
+
 **Bootstrap to WP Theme YouTube Tutorials (Simple):** https://www.youtube.com/watch?v=OQY3dNHLt1I&list=PLy9vu-vJXycs8KaJyKBwsZG86nlmMD4_N
+
 **Bootstrap to WP Theme YouTube Tutorials (Advanced):** https://www.youtube.com/watch?v=wMP2GANWXBA&list=PLy9vu-vJXycsLC9u8gKY6lt3k3FQu1WzZ
+
 These two links above are the links we used as inspiration to take our previous HTML/CSS static site and convert to the new Wordpress/PHP site.
 
 
