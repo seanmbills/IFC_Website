@@ -874,7 +874,7 @@
                                         <!-- <div style="position:absolute; bottom:0px;"> -->
                                             <hr>
                                             <br>
-                                            <a target="_blank" href="https://www.facebook.com/gtdeltau/" class="footer-social-media-icons" style="background-color:#4468b0!important; color:white!important;">
+                                            <a target="_blank" href="https://www.facebook.com/gtdeltau" class="footer-social-media-icons" style="background-color:#4468b0!important; color:white!important;">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                             <a target="_blank" href="https://www.instagram.com/gtdeltaupsilon" class="instagram footer-social-media-icons">
@@ -1274,7 +1274,6 @@
                                     </div>
                                     <div class="col-md-7" style="text-align:left; margin-bottom:10px;">
                                         <p>
-                                            <?php the_field('fiji_description'); ?>
                                             We are the Gamma Tau chapter of Phi Gamma Delta (FIJI), a national fraternity with 147 active chapters across the United States and Canada. Since our chapter’s founding in 1926, we have enjoyed a rich brotherhood of both undergraduates and graduates including the likes of G. Wayne Clough and Russ A. Chandler among others. We have been housed at Landon-Nelson Hall since 2013 and are excited to perpetuate our values of friendship, knowledge, service, morality, and excellence through our scholarship, philanthropy, involvement, and athletics.
                                         </p>
                                     </div>
@@ -2082,11 +2081,15 @@
                                         <!-- <div style="position:absolute; bottom:0px;"> -->
                                             <hr>
                                             <br>
-                                            <a target="_blank" href="https://www.facebook.com/pg/Georgia.Tech.SAE/" class="footer-social-media-icons" style="background-color:#4468b0!important; color:white!important;">
+                                            <a target="_blank" href="https://www.facebook.com/Georgia.Tech.SAE/" class="footer-social-media-icons" style="background-color:#4468b0!important; color:white!important;">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
 
-                                            <a target="_blank" href="https://www.facebook.com/pg/Georgia.Tech.SAE/" class="footer-social-media-icons" style="background-color:#000!important; color:white!important;">
+                                            <a target="_blank" href="https://www.instagram.com/gatechsae/" class="footer-social-media-icons" style="background-color:#000!important; color:white!important;">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+
+                                            <a target="_blank" href="https://www.sae.net/" class="footer-social-media-icons" style="background-color:#000!important; color:white!important;">
                                                 <i class="fa fa-desktop"></i>
                                             </a>
                                         <!-- </div> -->
@@ -2239,7 +2242,7 @@
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_nu.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
-                                            <strong>Chapter Designation:</strong> Gamma Alpha  <br>
+                                            <strong>Chapter Designation:</strong> Gamma Alpha <br>
                                             <!-- <strong>Chapter Nickname:</strong> AEPi     <br> -->
                                             <strong>President's Name:</strong> <?php the_field('sigmanu_president_name'); ?> <br>
                                             <strong>Contact Number:</strong> <?php the_field('sigmanu_phone_number'); ?>‬ <br>
@@ -2253,11 +2256,11 @@
                                             <a target="_blank" href="https://www.facebook.com/GTSigmaNu/" class="footer-social-media-icons" style="background-color:#4468b0!important; color:white!important;">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
-                                            <a target="_blank" href="https://www.instagram.com/sigmanugt" class="instagram footer-social-media-icons">
+                                            <a target="_blank" href="https://www.instagram.com/gt_sigmanu/" class="instagram footer-social-media-icons">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
 
-                                            <a target="_blank" href="gtsigmanu.com" class="footer-social-media-icons" style="background-color:#000!important; color:white!important;">
+                                            <a target="_blank" href="http://www.gtsigmanu.com/" class="footer-social-media-icons" style="background-color:#000!important; color:white!important;">
                                                 <i class="fa fa-desktop"></i>
                                             </a>
                                         <!-- </div> -->
@@ -2324,7 +2327,7 @@
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/sigma_phi_epsilon.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
-                                            <strong>Chapter Designation:</strong> Georgia Alpha  <br>
+                                            <strong>Chapter Designation:</strong> Georgia Alpha <br>
                                             <strong>Chapter Nickname:</strong> Sig Ep     <br>
                                             <strong>President's Name:</strong> <?php the_field('sigep_president_name'); ?> <br>
                                             <strong>Contact Number:</strong> <?php the_field('sigep_phone_number'); ?>‬ <br>
@@ -2733,7 +2736,7 @@ Zeta Beta Tau was founded by Richard J. H. Gottheil of Columbia University in 18
                                         <img src="<?php echo get_template_directory_uri(); ?>/img/Chapter Crests/zeta_beta_tau.png" class=" img-responsive" style="margin:auto; margin-bottom:5px;">
                                         <p style="text-align:center;">
                                             <br>
-                                            <strong>Chapter Designation:</strong> Xi  <br>
+                                            <strong>Chapter Designation:</strong> Xi Chapter <br>
                                             <strong>Chapter Nickname:</strong> Zeta Beta Tau     <br>
                                             <strong>President's Name:</strong> <?php the_field('zbt_president_name'); ?> <br>
                                             <strong>Contact Number:</strong> <?php the_field('zbt_phone_number'); ?>‬ <br>
