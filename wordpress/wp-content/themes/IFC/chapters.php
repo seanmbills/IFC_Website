@@ -1274,6 +1274,7 @@
                                     </div>
                                     <div class="col-md-7" style="text-align:left; margin-bottom:10px;">
                                         <p>
+                                            <?php the_field('fiji_description'); ?>
                                             We are the Gamma Tau chapter of Phi Gamma Delta (FIJI), a national fraternity with 147 active chapters across the United States and Canada. Since our chapter’s founding in 1926, we have enjoyed a rich brotherhood of both undergraduates and graduates including the likes of G. Wayne Clough and Russ A. Chandler among others. We have been housed at Landon-Nelson Hall since 2013 and are excited to perpetuate our values of friendship, knowledge, service, morality, and excellence through our scholarship, philanthropy, involvement, and athletics.
                                         </p>
                                     </div>
